@@ -10,6 +10,7 @@
 
 4. Sigo el [Tutorial](https://www.youtube.com/watch?v=93OXBYCdRhE) Al ejecutar la herramienta me da los errores recogidos en la tabla inferior.
 5. Seguidamente recojo algunos de los ejemplos de warnings obtenidos:
+6. Estos ***errores se eliminan*** en eclipse con lo que posteriormente he descubierto: botón derecho sobre el código que estamos generando: ***source/Format***
 
 >Multiple markers at this line
 	- WhitespaceAround: '{' is not preceded with whitespace.
