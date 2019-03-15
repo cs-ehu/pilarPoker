@@ -1,0 +1,222 @@
+\hypertarget{classpoker_1_1Carta}{}\section{Referencia de la Clase poker.\+Carta}
+\label{classpoker_1_1Carta}\index{poker.Carta@{poker.Carta}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classpoker_1_1Carta_a6c938fe144f69fc14694f763781019e0}{Carta}} (int n)
+\item 
+String \mbox{\hyperlink{classpoker_1_1Carta_a80da70637c7b234024b41d63957d7064}{to\+String}} ()
+\item 
+int \mbox{\hyperlink{classpoker_1_1Carta_a24fcaa25f7ab08bdcece39332baaa00c}{get\+Valor\+Numerico}} ()
+\item 
+String \mbox{\hyperlink{classpoker_1_1Carta_ae9d8ef2d8530e4331a61dbf0d361e871}{get\+Valor}} ()
+\item 
+String \mbox{\hyperlink{classpoker_1_1Carta_acc0513aa782c9388c849b2c0ec7ebf86}{get\+Palo}} ()
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}{str\+Palo}}
+\item 
+String \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{str\+Valor}}
+\item 
+int \mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 3 del archivo Carta.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classpoker_1_1Carta_a6c938fe144f69fc14694f763781019e0}\label{classpoker_1_1Carta_a6c938fe144f69fc14694f763781019e0}} 
+\index{poker.Carta@{poker.Carta}!Carta@{Carta}}
+\index{Carta@{Carta}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{Carta()}{Carta()}}
+{\footnotesize\ttfamily poker.\+Carta.\+Carta (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 13 del archivo Carta.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{13                       \{}
+\DoxyCodeLine{14     \textcolor{keywordtype}{int} ipalo = n + 1 / 13;}
+\DoxyCodeLine{15     \textcolor{keywordflow}{switch} (ipalo) \{}
+\DoxyCodeLine{16       \textcolor{keywordflow}{case} 0:}
+\DoxyCodeLine{17         \mbox{\hyperlink{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}{strPalo}} = \textcolor{stringliteral}{"Diamantes"};}
+\DoxyCodeLine{18         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{19       \textcolor{keywordflow}{case} 1:}
+\DoxyCodeLine{20         \mbox{\hyperlink{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}{strPalo}} = \textcolor{stringliteral}{"Picas"};}
+\DoxyCodeLine{21         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{22       \textcolor{keywordflow}{case} 2:}
+\DoxyCodeLine{23         \mbox{\hyperlink{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}{strPalo}} = \textcolor{stringliteral}{"Tr�boles"};}
+\DoxyCodeLine{24         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{25       \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{26         \mbox{\hyperlink{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}{strPalo}} = \textcolor{stringliteral}{"Corazones"};}
+\DoxyCodeLine{27         }
+\DoxyCodeLine{28     \}}
+\DoxyCodeLine{29     \mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}} = n \% 13 + 1;}
+\DoxyCodeLine{30     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}} == 11) \{}
+\DoxyCodeLine{31       \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{strValor}} = \textcolor{stringliteral}{"Jota"};}
+\DoxyCodeLine{32     \}}
+\DoxyCodeLine{33     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}} == 12) \{}
+\DoxyCodeLine{34       \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{strValor}} = \textcolor{stringliteral}{"Dama"};}
+\DoxyCodeLine{35     \}}
+\DoxyCodeLine{36     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}} == 13) \{}
+\DoxyCodeLine{37       \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{strValor}} = \textcolor{stringliteral}{"Rey"};}
+\DoxyCodeLine{38     \}}
+\DoxyCodeLine{39     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}} == 1) \{}
+\DoxyCodeLine{40       \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{strValor}} = \textcolor{stringliteral}{"As"};}
+\DoxyCodeLine{41       \mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}} = 14;}
+\DoxyCodeLine{42     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{43       \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{strValor}} = String.valueOf(\mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}});}
+\DoxyCodeLine{44     \}}
+\DoxyCodeLine{45   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Carta.\+ivalor, poker.\+Carta.\+str\+Palo y poker.\+Carta.\+str\+Valor.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classpoker_1_1Carta_acc0513aa782c9388c849b2c0ec7ebf86}\label{classpoker_1_1Carta_acc0513aa782c9388c849b2c0ec7ebf86}} 
+\index{poker.Carta@{poker.Carta}!getPalo@{getPalo}}
+\index{getPalo@{getPalo}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{getPalo()}{getPalo()}}
+{\footnotesize\ttfamily String poker.\+Carta.\+get\+Palo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 60 del archivo Carta.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60                           \{}
+\DoxyCodeLine{61     \textcolor{keywordflow}{return} \mbox{\hyperlink{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}{strPalo}};}
+\DoxyCodeLine{62   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Carta.\+str\+Palo.
+
+\mbox{\Hypertarget{classpoker_1_1Carta_ae9d8ef2d8530e4331a61dbf0d361e871}\label{classpoker_1_1Carta_ae9d8ef2d8530e4331a61dbf0d361e871}} 
+\index{poker.Carta@{poker.Carta}!getValor@{getValor}}
+\index{getValor@{getValor}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily String poker.\+Carta.\+get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 56 del archivo Carta.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{56                            \{}
+\DoxyCodeLine{57     \textcolor{keywordflow}{return} \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{strValor}};}
+\DoxyCodeLine{58   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Carta.\+str\+Valor.
+
+\mbox{\Hypertarget{classpoker_1_1Carta_a24fcaa25f7ab08bdcece39332baaa00c}\label{classpoker_1_1Carta_a24fcaa25f7ab08bdcece39332baaa00c}} 
+\index{poker.Carta@{poker.Carta}!getValorNumerico@{getValorNumerico}}
+\index{getValorNumerico@{getValorNumerico}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{getValorNumerico()}{getValorNumerico()}}
+{\footnotesize\ttfamily int poker.\+Carta.\+get\+Valor\+Numerico (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 52 del archivo Carta.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{52                                 \{}
+\DoxyCodeLine{53     \textcolor{keywordflow}{return} \mbox{\hyperlink{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}{ivalor}};}
+\DoxyCodeLine{54   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Carta.\+ivalor.
+
+\mbox{\Hypertarget{classpoker_1_1Carta_a80da70637c7b234024b41d63957d7064}\label{classpoker_1_1Carta_a80da70637c7b234024b41d63957d7064}} 
+\index{poker.Carta@{poker.Carta}!toString@{toString}}
+\index{toString@{toString}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String poker.\+Carta.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 48 del archivo Carta.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48                            \{}
+\DoxyCodeLine{49     \textcolor{keywordflow}{return} \mbox{\hyperlink{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}{strValor}} + \textcolor{stringliteral}{" de "} + \mbox{\hyperlink{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}{strPalo}};}
+\DoxyCodeLine{50   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Carta.\+str\+Palo y poker.\+Carta.\+str\+Valor.
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}\label{classpoker_1_1Carta_ac4748f23289d9b1bfc87e3899b656d8d}} 
+\index{poker.Carta@{poker.Carta}!ivalor@{ivalor}}
+\index{ivalor@{ivalor}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{ivalor}{ivalor}}
+{\footnotesize\ttfamily int poker.\+Carta.\+ivalor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 7 del archivo Carta.\+java.
+
+
+
+Referenciado por poker.\+Carta.\+Carta() y poker.\+Carta.\+get\+Valor\+Numerico().
+
+\mbox{\Hypertarget{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}\label{classpoker_1_1Carta_a819422a523ac0469a2cce6801bc9ee85}} 
+\index{poker.Carta@{poker.Carta}!strPalo@{strPalo}}
+\index{strPalo@{strPalo}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{strPalo}{strPalo}}
+{\footnotesize\ttfamily String poker.\+Carta.\+str\+Palo\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 5 del archivo Carta.\+java.
+
+
+
+Referenciado por poker.\+Carta.\+Carta(), poker.\+Carta.\+get\+Palo() y poker.\+Carta.\+to\+String().
+
+\mbox{\Hypertarget{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}\label{classpoker_1_1Carta_ad6f9ce08abdee20380c2fcd176fedc58}} 
+\index{poker.Carta@{poker.Carta}!strValor@{strValor}}
+\index{strValor@{strValor}!poker.Carta@{poker.Carta}}
+\subsubsection{\texorpdfstring{strValor}{strValor}}
+{\footnotesize\ttfamily String poker.\+Carta.\+str\+Valor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 6 del archivo Carta.\+java.
+
+
+
+Referenciado por poker.\+Carta.\+Carta(), poker.\+Carta.\+get\+Valor() y poker.\+Carta.\+to\+String().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/poker/\mbox{\hyperlink{Carta_8java}{Carta.\+java}}\end{DoxyCompactItemize}
