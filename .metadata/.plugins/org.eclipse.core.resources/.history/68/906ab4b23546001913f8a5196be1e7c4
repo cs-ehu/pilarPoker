@@ -1,0 +1,25 @@
+package poker;
+
+
+
+public class Poker {
+	/* Lanzamos la baraja  */
+  public static void main(String[] args) {
+	  
+		try {
+      Baraja b = new Baraja();
+      for (int i = 0; i < 52; i++) {
+        System.out.println(b.robarCarta());
+      }
+      System.out.println();
+      Baraja b1 = new Baraja();
+      b1.mezclarBaraja();
+      for (int i = 0; i < 52;i++) {
+        System.out.println(b1.robarCarta());
+      }
+      System.out.println();
+    } catch (Exception ex) {
+       System.out.println(ex);
+     }
+	}
+}

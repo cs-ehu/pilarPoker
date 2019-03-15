@@ -1,0 +1,132 @@
+\hypertarget{classpoker_1_1Baraja}{}\section{Referencia de la Clase poker.\+Baraja}
+\label{classpoker_1_1Baraja}\index{poker.Baraja@{poker.Baraja}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classpoker_1_1Baraja_aa3003f220dd7f18565095c2f34bc4ff7}{Baraja}} ()
+\item 
+void \mbox{\hyperlink{classpoker_1_1Baraja_a83f7910d78df1da64aefdf640a9fefe7}{mezclar\+Baraja}} ()
+\item 
+\mbox{\hyperlink{classpoker_1_1Carta}{Carta}} \mbox{\hyperlink{classpoker_1_1Baraja_a2eaf33a7d657fb1f5181d0c5307c300b}{robar\+Carta}} ()  throws Fin\+Baraja\+Exception
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classpoker_1_1Carta}{Carta}} $>$ \mbox{\hyperlink{classpoker_1_1Baraja_a267e10bf1a0fadd4b1bfa3f243fdfcf6}{cartas}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 4 del archivo Baraja.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classpoker_1_1Baraja_aa3003f220dd7f18565095c2f34bc4ff7}\label{classpoker_1_1Baraja_aa3003f220dd7f18565095c2f34bc4ff7}} 
+\index{poker.Baraja@{poker.Baraja}!Baraja@{Baraja}}
+\index{Baraja@{Baraja}!poker.Baraja@{poker.Baraja}}
+\subsubsection{\texorpdfstring{Baraja()}{Baraja()}}
+{\footnotesize\ttfamily poker.\+Baraja.\+Baraja (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 6 del archivo Baraja.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{6                        \{}
+\DoxyCodeLine{7            \mbox{\hyperlink{classpoker_1_1Baraja_a267e10bf1a0fadd4b1bfa3f243fdfcf6}{cartas}}= \textcolor{keyword}{new} ArrayList();}
+\DoxyCodeLine{8            \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i=0; i<52; i++)\{}
+\DoxyCodeLine{9                \mbox{\hyperlink{classpoker_1_1Baraja_a267e10bf1a0fadd4b1bfa3f243fdfcf6}{cartas}}.add(\textcolor{keyword}{new} Carta (i));}
+\DoxyCodeLine{10            \}}
+\DoxyCodeLine{11         \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Baraja.\+cartas.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classpoker_1_1Baraja_a83f7910d78df1da64aefdf640a9fefe7}\label{classpoker_1_1Baraja_a83f7910d78df1da64aefdf640a9fefe7}} 
+\index{poker.Baraja@{poker.Baraja}!mezclarBaraja@{mezclarBaraja}}
+\index{mezclarBaraja@{mezclarBaraja}!poker.Baraja@{poker.Baraja}}
+\subsubsection{\texorpdfstring{mezclarBaraja()}{mezclarBaraja()}}
+{\footnotesize\ttfamily void poker.\+Baraja.\+mezclar\+Baraja (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 12 del archivo Baraja.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12                                     \{}
+\DoxyCodeLine{13              Collections.shuffle(\mbox{\hyperlink{classpoker_1_1Baraja_a267e10bf1a0fadd4b1bfa3f243fdfcf6}{cartas}});}
+\DoxyCodeLine{14          \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Baraja.\+cartas.
+
+
+
+Referenciado por poker.\+Poker.\+main().
+
+\mbox{\Hypertarget{classpoker_1_1Baraja_a2eaf33a7d657fb1f5181d0c5307c300b}\label{classpoker_1_1Baraja_a2eaf33a7d657fb1f5181d0c5307c300b}} 
+\index{poker.Baraja@{poker.Baraja}!robarCarta@{robarCarta}}
+\index{robarCarta@{robarCarta}!poker.Baraja@{poker.Baraja}}
+\subsubsection{\texorpdfstring{robarCarta()}{robarCarta()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classpoker_1_1Carta}{Carta}} poker.\+Baraja.\+robar\+Carta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classpoker_1_1FinBarajaException}{Fin\+Baraja\+Exception}}}
+
+
+
+Definición en la línea 15 del archivo Baraja.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{15                                                             \{}
+\DoxyCodeLine{16              Carta c;}
+\DoxyCodeLine{17          \textcolor{keywordflow}{try}\{}
+\DoxyCodeLine{18          c=\mbox{\hyperlink{classpoker_1_1Baraja_a267e10bf1a0fadd4b1bfa3f243fdfcf6}{cartas}}.remove(0);}
+\DoxyCodeLine{19          \textcolor{keywordflow}{return} c;}
+\DoxyCodeLine{20          \}\textcolor{keywordflow}{catch} (IndexOutOfBoundsException ex)\{}
+\DoxyCodeLine{21              \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FinBarajaException ();}
+\DoxyCodeLine{22          \}}
+\DoxyCodeLine{23          }
+\DoxyCodeLine{24          \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a poker.\+Baraja.\+cartas.
+
+
+
+Referenciado por poker.\+Poker.\+main().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classpoker_1_1Baraja_a267e10bf1a0fadd4b1bfa3f243fdfcf6}\label{classpoker_1_1Baraja_a267e10bf1a0fadd4b1bfa3f243fdfcf6}} 
+\index{poker.Baraja@{poker.Baraja}!cartas@{cartas}}
+\index{cartas@{cartas}!poker.Baraja@{poker.Baraja}}
+\subsubsection{\texorpdfstring{cartas}{cartas}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classpoker_1_1Carta}{Carta}}$>$ poker.\+Baraja.\+cartas\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 5 del archivo Baraja.\+java.
+
+
+
+Referenciado por poker.\+Baraja.\+Baraja(), poker.\+Baraja.\+mezclar\+Baraja() y poker.\+Baraja.\+robar\+Carta().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/poker/\mbox{\hyperlink{Baraja_8java}{Baraja.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,34 @@
+package poker;
+
+/* *
+ * Esta clase lanza a consola el método robar carta
+ * @author: Pilar
+ * @version: 14-3-2019
+ * @see Markdown donde pongo antes y después
+ */
+public class Poker { 
+  /** 
+   * Crea un círculo a partir de su origen su radio.
+   * @param x La coordenada x del centro del círculo.
+   * @param y La coordenada y del centro del círculo.
+   * @param r El radio del círculo. Debe ser mayor o igual a 0.
+   */
+  
+  public static void main(String[] args) {
+    try {
+      Baraja b = new Baraja();
+      for (int i = 0; i < 52; i++) {
+        System.out.println(b.robarCarta());
+      }
+      System.out.println();
+      Baraja b1 = new Baraja();
+      b1.mezclarBaraja();
+      for (int i = 0; i < 52;i++) {
+        System.out.println(b1.robarCarta());
+      }
+      System.out.println();
+    } catch (Exception ex) {
+      System.out.println(ex);
+    }
+  }
+}
