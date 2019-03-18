@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['baraja',['baraja',['../classpoker_1_1Mano.html#a9fd3c2334c2346b20e9e881b370fb564',1,'poker::Mano']]],
-  ['bcambiorealizado',['bcambiorealizado',['../classpoker_1_1Mano.html#a65e1d2bb8d29cf88b105c39f26f5aa38',1,'poker::Mano']]]
+  ['cartas',['cartas',['../classpoker_1_1Baraja.html#a267e10bf1a0fadd4b1bfa3f243fdfcf6',1,'poker.Baraja.cartas()'],['../classpoker_1_1Mano.html#ae6e107ad79d163a4c45afc6274d36d9e',1,'poker.Mano.cartas()']]]
 ];

@@ -1,27 +1,28 @@
 \hypertarget{classpoker_1_1Mano}{}\section{Referencia de la Clase poker.\+Mano}
 \label{classpoker_1_1Mano}\index{poker.Mano@{poker.Mano}}
+
+
+The Class \mbox{\hyperlink{classpoker_1_1Mano}{Mano}}.  
+
+
 \subsection*{Métodos públicos}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{classpoker_1_1Mano_ac89468d484812da476c2a46201eb513e}{Mano}} (\mbox{\hyperlink{classpoker_1_1Baraja}{Baraja}} b)  throws Fin\+Baraja\+Exception 
-\item 
-void \mbox{\hyperlink{classpoker_1_1Mano_a1f3e7289b85d98324d46a8afce171368}{cambiar}} (List$<$ Integer $>$ cambios)  throws Fin\+Baraja\+Exception
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Instantiates a new mano. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classpoker_1_1Mano_a1f3e7289b85d98324d46a8afce171368}{cambiar}} (List$<$ Integer $>$ cambios)  throws Fin\+Baraja\+Exception 
+\begin{DoxyCompactList}\small\item\em Cambiar. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Atributos privados}
 \begin{DoxyCompactItemize}
 \item 
 List$<$ \mbox{\hyperlink{classpoker_1_1Carta}{Carta}} $>$ \mbox{\hyperlink{classpoker_1_1Mano_ae6e107ad79d163a4c45afc6274d36d9e}{cartas}}
-\item 
-boolean \mbox{\hyperlink{classpoker_1_1Mano_a65e1d2bb8d29cf88b105c39f26f5aa38}{bcambiorealizado}}
-\item 
-\mbox{\hyperlink{classpoker_1_1Baraja}{Baraja}} \mbox{\hyperlink{classpoker_1_1Mano_a9fd3c2334c2346b20e9e881b370fb564}{baraja}}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em The cartas. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Descripción detallada}
+The Class \mbox{\hyperlink{classpoker_1_1Mano}{Mano}}. 
 
-
-Definición en la línea 8 del archivo Mano.\+java.
+Definición en la línea 12 del archivo Mano.\+java.
 
 
 
@@ -34,23 +35,37 @@ Definición en la línea 8 del archivo Mano.\+java.
 
 
 
-Definición en la línea 18 del archivo Mano.\+java.
+Instantiates a new mano. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em b} & the b \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em \mbox{\hyperlink{classpoker_1_1FinBarajaException}{Fin\+Baraja\+Exception}}} & the fin baraja exception \\
+\hline
+\end{DoxyExceptions}
+
+
+Definición en la línea 23 del archivo Mano.\+java.
 
 
 \begin{DoxyCode}{0}
-\DoxyCodeLine{18                                                   \{}
-\DoxyCodeLine{19     \mbox{\hyperlink{classpoker_1_1Mano_a9fd3c2334c2346b20e9e881b370fb564}{baraja}} = b;}
-\DoxyCodeLine{20     \mbox{\hyperlink{classpoker_1_1Mano_ae6e107ad79d163a4c45afc6274d36d9e}{cartas}} = \textcolor{keyword}{new} ArrayList();}
-\DoxyCodeLine{21     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0;i < 5;i++) \{}
-\DoxyCodeLine{22       \mbox{\hyperlink{classpoker_1_1Mano_ae6e107ad79d163a4c45afc6274d36d9e}{cartas}}.add(b.robarCarta());}
-\DoxyCodeLine{23     \}}
-\DoxyCodeLine{24     \mbox{\hyperlink{classpoker_1_1Mano_a65e1d2bb8d29cf88b105c39f26f5aa38}{bcambiorealizado}} = \textcolor{keyword}{false};}
-\DoxyCodeLine{25   \}}
+\DoxyCodeLine{23                                                   \{}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \mbox{\hyperlink{classpoker_1_1Mano_ae6e107ad79d163a4c45afc6274d36d9e}{cartas}} = \textcolor{keyword}{new} ArrayList<Carta>();}
+\DoxyCodeLine{26     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 5; i++) \{}
+\DoxyCodeLine{27       \mbox{\hyperlink{classpoker_1_1Mano_ae6e107ad79d163a4c45afc6274d36d9e}{cartas}}.add(b.robarCarta());}
+\DoxyCodeLine{28     \}}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30   \}}
 
 \end{DoxyCode}
 
 
-Hace referencia a poker.\+Mano.\+baraja, poker.\+Mano.\+bcambiorealizado y poker.\+Mano.\+cartas.
+Hace referencia a poker.\+Mano.\+cartas.
 
 
 
@@ -63,46 +78,32 @@ Hace referencia a poker.\+Mano.\+baraja, poker.\+Mano.\+bcambiorealizado y poker
 
 
 
-Definición en la línea 27 del archivo Mano.\+java.
+Cambiar. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cambios} & the cambios \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em \mbox{\hyperlink{classpoker_1_1FinBarajaException}{Fin\+Baraja\+Exception}}} & the fin baraja exception \\
+\hline
+\end{DoxyExceptions}
+
+
+Definición en la línea 38 del archivo Mano.\+java.
 
 
 \begin{DoxyCode}{0}
-\DoxyCodeLine{27                                                                       \{}
-\DoxyCodeLine{28     }
-\DoxyCodeLine{29   \}}
+\DoxyCodeLine{38                                                                        \{}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40   \}}
 
 \end{DoxyCode}
 
 
 \subsection{Documentación de los datos miembro}
-\mbox{\Hypertarget{classpoker_1_1Mano_a9fd3c2334c2346b20e9e881b370fb564}\label{classpoker_1_1Mano_a9fd3c2334c2346b20e9e881b370fb564}} 
-\index{poker.Mano@{poker.Mano}!baraja@{baraja}}
-\index{baraja@{baraja}!poker.Mano@{poker.Mano}}
-\subsubsection{\texorpdfstring{baraja}{baraja}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classpoker_1_1Baraja}{Baraja}} poker.\+Mano.\+baraja\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definición en la línea 12 del archivo Mano.\+java.
-
-
-
-Referenciado por poker.\+Mano.\+Mano().
-
-\mbox{\Hypertarget{classpoker_1_1Mano_a65e1d2bb8d29cf88b105c39f26f5aa38}\label{classpoker_1_1Mano_a65e1d2bb8d29cf88b105c39f26f5aa38}} 
-\index{poker.Mano@{poker.Mano}!bcambiorealizado@{bcambiorealizado}}
-\index{bcambiorealizado@{bcambiorealizado}!poker.Mano@{poker.Mano}}
-\subsubsection{\texorpdfstring{bcambiorealizado}{bcambiorealizado}}
-{\footnotesize\ttfamily boolean poker.\+Mano.\+bcambiorealizado\hspace{0.3cm}{\ttfamily [private]}}
-
-
-
-Definición en la línea 11 del archivo Mano.\+java.
-
-
-
-Referenciado por poker.\+Mano.\+Mano().
-
 \mbox{\Hypertarget{classpoker_1_1Mano_ae6e107ad79d163a4c45afc6274d36d9e}\label{classpoker_1_1Mano_ae6e107ad79d163a4c45afc6274d36d9e}} 
 \index{poker.Mano@{poker.Mano}!cartas@{cartas}}
 \index{cartas@{cartas}!poker.Mano@{poker.Mano}}
@@ -111,7 +112,11 @@ Referenciado por poker.\+Mano.\+Mano().
 
 
 
-Definición en la línea 10 del archivo Mano.\+java.
+The cartas. 
+
+
+
+Definición en la línea 15 del archivo Mano.\+java.
 
 
 

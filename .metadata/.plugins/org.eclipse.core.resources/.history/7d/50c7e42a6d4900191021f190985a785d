@@ -1,0 +1,12 @@
+package poker;
+
+public class FinBarajaException extends Exception {
+  /**
+   * Esta clase se ejecuta cuando ya no quedan cartas
+   */
+  private static final long serialVersionUID = 1L;
+
+  public FinBarajaException() {
+    super("No hay mas cartas en la baraja");
+  }
+}

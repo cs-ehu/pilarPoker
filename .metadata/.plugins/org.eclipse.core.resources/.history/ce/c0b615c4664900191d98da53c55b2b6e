@@ -1,0 +1,30 @@
+package poker;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//import java.util.*;
+
+public class Mano {
+
+  private List<Carta> cartas;
+  private boolean bcambiorealizado;
+  private Baraja baraja;
+  /* *
+   * @param b
+   * @throws FinBarajaException
+   */
+  
+  public Mano(Baraja b) throws FinBarajaException {
+    baraja = b;
+    cartas = new ArrayList();
+    for (int i = 0;i < 5;i++) {
+      cartas.add(b.robarCarta());
+    }
+    bcambiorealizado = false;
+  }
+  
+  public void cambiar(List<Integer> cambios) throws FinBarajaException{
+    
+  }
+}

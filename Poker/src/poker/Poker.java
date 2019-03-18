@@ -1,28 +1,33 @@
 package poker;
 
-/* *
- * Esta clase lanza a consola el método robar carta
+// TODO: Auto-generated Javadoc
+/**
+ * Esta clase lanza a consola el método robar carta.
+ *
+ * @see Markdown donde pongo antes y después
  * @author: Pilar
  * @version: 14-3-2019
- * @see Markdown donde pongo antes y después
  */
 public class Poker {
-  /*
-   * * Saca por pantalla el resultado de robarCarta
-   * 
-   * @param b baraja sin mezclar
-   * 
-   * @param b1 baraja mezclada
+  
+ 
+  /**
+   * The main method.
+   *
+   * @param args the arguments
    */
   public static void main(String[] args) {
     try {
       Baraja b = new Baraja();
+
+      System.out.println("Resultado de robar carta con la baraja ordenada");
       for (int i = 0; i < 52; i++) {
         System.out.println(b.robarCarta());
       }
       System.out.println();
       Baraja b1 = new Baraja();
       b1.mezclarBaraja();
+      System.out.println("Resultado de robar carta despúes de barajar");
       for (int i = 0; i < 52; i++) {
         System.out.println(b1.robarCarta());
       }
@@ -30,13 +35,6 @@ public class Poker {
     } catch (Exception ex) {
       System.out.println(ex);
     }
-    for (int i = 2; i < 3; i++) {
-      String salida = "estamos con editor config puesto en eclipse " + i;
-      System.out.println(salida);
-    }
-    for (int j = 2; j < 4; j++) {
-      String salida = "otra";
-      System.out.println(salida);
-    }
+
   }
 }

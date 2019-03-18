@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cartas',['cartas',['../classpoker_1_1Baraja.html#a267e10bf1a0fadd4b1bfa3f243fdfcf6',1,'poker.Baraja.cartas()'],['../classpoker_1_1Mano.html#ae6e107ad79d163a4c45afc6274d36d9e',1,'poker.Mano.cartas()']]]
+  ['ivalor',['ivalor',['../classpoker_1_1Carta.html#ac4748f23289d9b1bfc87e3899b656d8d',1,'poker::Carta']]]
 ];

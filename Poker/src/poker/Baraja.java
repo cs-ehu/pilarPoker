@@ -4,30 +4,43 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-//import java.util.*;
+// TODO: Auto-generated Javadoc
 
+
+/**
+ * The Class Baraja.
+ */
 public class Baraja {
-  private List<Carta> cartas;
-  /* *
-   * Estamos en 
-   * @Baraja es el constructor
-   */
   
+  /** The cartas. */
+  private List<Carta> cartas;
+  
+ 
+  
+  /**
+   * Instantiates a new baraja.
+   */
   public Baraja() {
-    cartas = new ArrayList();
+    cartas = new ArrayList<Carta>();
     for (int i = 0; i < 52; i++) {
       cartas.add(new Carta(i));
     }
   }
   
+  /**
+   * Mezclar baraja.
+   */
   public void mezclarBaraja() {
     Collections.shuffle(cartas);
   }
   
-  /* *
-   * @robarCarta es un método
+ 
+  /**
+   * Robar carta.
+   *
+   * @return the carta
+   * @throws FinBarajaException the fin baraja exception
    */
-  
   public Carta robarCarta() throws FinBarajaException {
     Carta c;
     try {

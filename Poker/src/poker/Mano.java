@@ -3,28 +3,39 @@ package poker;
 import java.util.ArrayList;
 import java.util.List;
 
+// TODO: Auto-generated Javadoc
 //import java.util.*;
 
+/**
+ * The Class Mano.
+ */
 public class Mano {
 
+  /** The cartas. */
   private List<Carta> cartas;
-  private boolean bcambiorealizado;
-  private Baraja baraja;
-  /* *
-   * @param b
-   * @throws FinBarajaException
+
+  /**
+   * Instantiates a new mano.
+   *
+   * @param b the b
+   * @throws FinBarajaException the fin baraja exception
    */
-  
   public Mano(Baraja b) throws FinBarajaException {
-    baraja = b;
-    cartas = new ArrayList();
-    for (int i = 0;i < 5;i++) {
+
+    cartas = new ArrayList<Carta>();
+    for (int i = 0; i < 5; i++) {
       cartas.add(b.robarCarta());
     }
-    bcambiorealizado = false;
+
   }
-  
-  public void cambiar(List<Integer> cambios) throws FinBarajaException{
-    
+
+  /**
+   * Cambiar.
+   *
+   * @param cambios the cambios
+   * @throws FinBarajaException the fin baraja exception
+   */
+  public void cambiar(List<Integer> cambios) throws FinBarajaException {
+
   }
 }
