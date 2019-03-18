@@ -114,10 +114,10 @@ import java.util.Collections;
 import java.util.List;
 ```
 
-##source/Format
+## source/Format
 Muchos de estos ***warnings se eliminan*** en eclipse con lo que posteriormente he descubierto: botón derecho sobre el código que estamos generando(o pestaña source/format): source/Format
 
-##Generar javadoc 
+## Generar javadoc 
 Para crear los comentarios de acuerdo con checkstyle sin que se generen problemas varios lo mejor es instalar el plugin ***JAutodoc*** (help/eclipsemarketplace).
 Sobre la clase o método que se desee, click derecho/jautodoc
 
