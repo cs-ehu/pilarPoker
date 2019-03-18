@@ -32,9 +32,9 @@
 	 only be represented as {} when not part of a multi-block statement (4.1.3)
 	 correcto, 2
 	 
->```bash
+```bash
 for(int i=0; i<52;i++){
-          System.out.println(b1.robarCarta());
+     System.out.println(b1.robarCarta());
 }
 ```
 >Modifico el código para que se ajuste a los estándares
@@ -49,7 +49,7 @@ for (int i = 0; i < 52;i++) {
 	 only be represented as {} when not part of a multi-block statement (4.1.3)
 	- try rcurly en el nivel de sangrado 5 no está al nivel correcto, 4
 
->```bash
+```bash
 System.out.println();
      } catch(Exception ex){
             System.out.println(ex);
@@ -59,7 +59,7 @@ System.out.println();
 > Modifico todos los warnings
 
 
->```bash
+```bash
 package poker;
 public class Poker { /* Lanzamos la baraja  */
   public static void main(String[] args) {
@@ -81,8 +81,7 @@ public class Poker { /* Lanzamos la baraja  */
   }
 }
 ```
-
->```bash
+```bash
 /**
  * Esto es un comentario para javadoc ejemplo aprenderaprogramar.com
  */
@@ -91,7 +90,7 @@ public class Poker { /* Lanzamos la baraja  */
 
 >*Para alimentar javadoc se usan ciertas palabras reservadas (tags) precedidas por el carácter "@", dentro de los símbolos de comentario javadoc. Si no existe al menos una línea que comience con @ no se reconocerá el comentario para la documentación de la clase.*
 
->```bash
+```bash
 package poker;
 /**
  * Esta clase lanza a consola el método robar carta
@@ -108,7 +107,7 @@ public class Poker {
 
 > Usar la importación con '.*' debería evitarse - java.util.* Lo sustituyo:
 
->```bash
+```bash
 //import java.util.*;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -121,7 +120,8 @@ Muchos de estos ***warnings se eliminan*** en eclipse con lo que posteriormente 
 ##Generar javadoc 
 Para crear los comentarios de acuerdo con checkstyle sin que se generen problemas varios lo mejor es instalar el plugin ***JAutodoc*** (help/eclipsemarketplace).
 Sobre la clase o método que se desee, click derecho/jautodoc
->```
+
+```
 /**
    * Instantiates a new carta.
    *
