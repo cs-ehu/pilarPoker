@@ -1,0 +1,535 @@
+\hypertarget{classtrimino_1_1Tablero}{}\section{Referencia de la Clase trimino.\+Tablero}
+\label{classtrimino_1_1Tablero}\index{trimino.Tablero@{trimino.Tablero}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtrimino_1_1Tablero_a64fd87eb39c717e10f9c9bd854b817d3}{Tablero}} (int \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}})
+\begin{DoxyCompactList}\small\item\em Instantiates a new tablero. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classtrimino_1_1Tablero_a629206c5d1c37fb1de5c132b9e7b0f09}{get\+Dimension}} ()
+\item 
+void \mbox{\hyperlink{classtrimino_1_1Tablero_ae4bc58ebf11214c6e48b0ff7b64eb58e}{marca\+Casilla\+Inicial}} (int fila, int columna)
+\item 
+\mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}} \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classtrimino_1_1Tablero_aff4215587c5b1d20ca19f420d989a209}{elegir\+Trimino}} (int fila, int columna, String cuadrante, int dimension\+Tablero, int \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}})
+\begin{DoxyCompactList}\small\item\em Elegir trimino. \end{DoxyCompactList}\item 
+char \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classtrimino_1_1Tablero_a03a6bb741611d91f2e5b65ffda02d0e2}{marca\+Tablero}} (\mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{trimino\+Elegido}})
+\begin{DoxyCompactList}\small\item\em Marca tablero. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classtrimino_1_1Tablero_a635b4034c7de88cf27048168ff6612d6}{definir\+Cuadrante}} (int fila, int columna, int \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}})
+\begin{DoxyCompactList}\small\item\em Definir cuadrante. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classtrimino_1_1Tablero_aafa29cfec6831d2ad31eeb715eb93bee}{imprime\+Tablero}} (int \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}, String nombre\+Fichero)  throws I\+O\+Exception 
+\begin{DoxyCompactList}\small\item\em Imprime tablero. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classtrimino_1_1Tablero_a146790a6abfaef08ab62fb5b82cc3cd1}{nuevo\+Simbolo}} ()
+\begin{DoxyCompactList}\small\item\em Nuevo simbolo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Estáticos del \textquotesingle{}package\textquotesingle{}}
+\begin{DoxyCompactItemize}
+\item 
+static char \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} = \textquotesingle{}0\textquotesingle{}
+\end{DoxyCompactItemize}
+\subsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}
+\item 
+char \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}
+\item 
+String \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classtrimino_1_1Tablero_ac1b1c9acb509c594fcae4b7d7ebb765e}{cuadrantes}} = \{ \char`\"{}C\+SI\char`\"{}, \char`\"{}C\+SD\char`\"{}, \char`\"{}C\+II\char`\"{}, \char`\"{}C\+ID\char`\"{} \}
+\item 
+\mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}} \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{trimino\+Elegido}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 7 del archivo Tablero.\+java.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classtrimino_1_1Tablero_a64fd87eb39c717e10f9c9bd854b817d3}\label{classtrimino_1_1Tablero_a64fd87eb39c717e10f9c9bd854b817d3}} 
+\index{trimino.Tablero@{trimino.Tablero}!Tablero@{Tablero}}
+\index{Tablero@{Tablero}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{Tablero()}{Tablero()}}
+{\footnotesize\ttfamily trimino.\+Tablero.\+Tablero (\begin{DoxyParamCaption}\item[{int}]{dimension }\end{DoxyParamCaption})}
+
+
+
+Instantiates a new tablero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dimension} & the dimension \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 19 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{19                                 \{}
+\DoxyCodeLine{20     this.\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} = \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}};}
+\DoxyCodeLine{21     \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}} = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}][\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}];}
+\DoxyCodeLine{22     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}; i++) \{}
+\DoxyCodeLine{23       \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}; j++) \{}
+\DoxyCodeLine{24         \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}[i][j] = \textcolor{charliteral}{'*'};}
+\DoxyCodeLine{25       \}}
+\DoxyCodeLine{26     \}}
+\DoxyCodeLine{27   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Tablero.\+dimension y trimino.\+Tablero.\+triminos.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classtrimino_1_1Tablero_a635b4034c7de88cf27048168ff6612d6}\label{classtrimino_1_1Tablero_a635b4034c7de88cf27048168ff6612d6}} 
+\index{trimino.Tablero@{trimino.Tablero}!definirCuadrante@{definirCuadrante}}
+\index{definirCuadrante@{definirCuadrante}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{definirCuadrante()}{definirCuadrante()}}
+{\footnotesize\ttfamily String trimino.\+Tablero.\+definir\+Cuadrante (\begin{DoxyParamCaption}\item[{int}]{fila,  }\item[{int}]{columna,  }\item[{int}]{dimension }\end{DoxyParamCaption})}
+
+
+
+Definir cuadrante. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em fila} & the fila \\
+\hline
+{\em columna} & the columna \\
+\hline
+{\em dimension} & the dimension \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the string 
+\end{DoxyReturn}
+
+
+Definición en la línea 95 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{95                                                                        \{}
+\DoxyCodeLine{96     String cuadrante = \textcolor{stringliteral}{""};}
+\DoxyCodeLine{97     \textcolor{keywordtype}{int} filaCuadrante = 0;}
+\DoxyCodeLine{98     \textcolor{keywordtype}{int} columnaCuadrante = 0;}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{100     \textcolor{comment}{/********* FILA *****************/}}
+\DoxyCodeLine{101     \textcolor{keywordflow}{if} (fila <= \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) \{}
+\DoxyCodeLine{102       filaCuadrante = fila;}
+\DoxyCodeLine{103     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{104       \textcolor{keywordtype}{int} i = 0;}
+\DoxyCodeLine{105       \textcolor{keywordtype}{int} movilidadFila = 0;}
+\DoxyCodeLine{106       \textcolor{keywordflow}{while} ((i + \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) <= this.\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) \{}
+\DoxyCodeLine{107         \textcolor{keywordflow}{if} ((fila > i) \&\& (fila <= (i + \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}))) \{}
+\DoxyCodeLine{108           movilidadFila = i;}
+\DoxyCodeLine{109           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{110         \}}
+\DoxyCodeLine{111         i = i + \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}};}
+\DoxyCodeLine{112       \}}
+\DoxyCodeLine{113       filaCuadrante = fila - movilidadFila;}
+\DoxyCodeLine{114     \}}
+\DoxyCodeLine{115 }
+\DoxyCodeLine{116     \textcolor{comment}{/******** COLUMNA ****************/}}
+\DoxyCodeLine{117     \textcolor{keywordflow}{if} (columna <= \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) \{}
+\DoxyCodeLine{118       columnaCuadrante = columna;}
+\DoxyCodeLine{119     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{120       \textcolor{keywordtype}{int} i = 0;}
+\DoxyCodeLine{121       \textcolor{keywordtype}{int} movilidadCol = 0;}
+\DoxyCodeLine{122       \textcolor{keywordflow}{while} ((i + \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) <= this.\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) \{}
+\DoxyCodeLine{123         \textcolor{keywordflow}{if} ((columna > i) \&\& (columna <= (i + \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}))) \{}
+\DoxyCodeLine{124           movilidadCol = i;}
+\DoxyCodeLine{125           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{126         \}}
+\DoxyCodeLine{127         i = i + \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}};}
+\DoxyCodeLine{128       \}}
+\DoxyCodeLine{129       columnaCuadrante = columna - movilidadCol;}
+\DoxyCodeLine{130     \}}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{132     \textcolor{keywordflow}{if} ((filaCuadrante <= (\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2)) \&\& (filaCuadrante >= 1) \&\& (columnaCuadrante <= (\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2))}
+\DoxyCodeLine{133         \&\& (columnaCuadrante >= 1)) \{}
+\DoxyCodeLine{134       cuadrante = \mbox{\hyperlink{classtrimino_1_1Tablero_ac1b1c9acb509c594fcae4b7d7ebb765e}{cuadrantes}}[0];}
+\DoxyCodeLine{135     \}}
+\DoxyCodeLine{136     \textcolor{keywordflow}{if} ((filaCuadrante <= (\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2)) \&\& (filaCuadrante >= 1) \&\& (columnaCuadrante <= \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}})}
+\DoxyCodeLine{137         \&\& (columnaCuadrante >= ((\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2) + 1))) \{}
+\DoxyCodeLine{138       cuadrante = \mbox{\hyperlink{classtrimino_1_1Tablero_ac1b1c9acb509c594fcae4b7d7ebb765e}{cuadrantes}}[1];}
+\DoxyCodeLine{139     \}}
+\DoxyCodeLine{140     \textcolor{keywordflow}{if} ((filaCuadrante <= \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) \&\& (filaCuadrante >= ((\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2) + 1))}
+\DoxyCodeLine{141         \&\& (columnaCuadrante <= (\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2)) \&\& (columnaCuadrante >= 1)) \{}
+\DoxyCodeLine{142       cuadrante = \mbox{\hyperlink{classtrimino_1_1Tablero_ac1b1c9acb509c594fcae4b7d7ebb765e}{cuadrantes}}[2];}
+\DoxyCodeLine{143     \}}
+\DoxyCodeLine{144     \textcolor{keywordflow}{if} ((filaCuadrante <= \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}) \&\& (filaCuadrante >= ((\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2) + 1)) \&\& (columnaCuadrante <= \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}})}
+\DoxyCodeLine{145         \&\& (columnaCuadrante >= ((\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}} / 2) + 1))) \{}
+\DoxyCodeLine{146       cuadrante = \mbox{\hyperlink{classtrimino_1_1Tablero_ac1b1c9acb509c594fcae4b7d7ebb765e}{cuadrantes}}[3];}
+\DoxyCodeLine{147     \}}
+\DoxyCodeLine{148     \textcolor{keywordflow}{return} cuadrante;}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{150   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Tablero.\+cuadrantes y trimino.\+Tablero.\+dimension.
+
+
+
+Referenciado por trimino.\+Trimino.\+llenado\+Cuadrante(), trimino.\+Trimino.\+main(), trimino.\+Trimino.\+recursivo(), trimino.\+Trimino.\+trimino\+Recursivo\+Inferior() y trimino.\+Trimino.\+trimino\+Recursivo\+Superior().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_aff4215587c5b1d20ca19f420d989a209}\label{classtrimino_1_1Tablero_aff4215587c5b1d20ca19f420d989a209}} 
+\index{trimino.Tablero@{trimino.Tablero}!elegirTrimino@{elegirTrimino}}
+\index{elegirTrimino@{elegirTrimino}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{elegirTrimino()}{elegirTrimino()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}} \mbox{[}$\,$\mbox{]} trimino.\+Tablero.\+elegir\+Trimino (\begin{DoxyParamCaption}\item[{int}]{fila,  }\item[{int}]{columna,  }\item[{String}]{cuadrante,  }\item[{int}]{dimension\+Tablero,  }\item[{int}]{dimension }\end{DoxyParamCaption})}
+
+
+
+Elegir trimino. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em fila} & the fila \\
+\hline
+{\em columna} & the columna \\
+\hline
+{\em cuadrante} & the cuadrante \\
+\hline
+{\em dimension\+Tablero} & the dimension tablero \\
+\hline
+{\em dimension} & the dimension \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the casilla\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+
+
+Definición en la línea 48 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48                                                                                                                \{}
+\DoxyCodeLine{49     Estructura estructura = \textcolor{keyword}{new} Estructura();}
+\DoxyCodeLine{50     \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{triminoElegido}} = estructura.elegirEstructura(\mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}, cuadrante, fila, columna, dimensionTablero);}
+\DoxyCodeLine{51     \mbox{\hyperlink{classtrimino_1_1Tablero_a03a6bb741611d91f2e5b65ffda02d0e2}{marcaTablero}}(\mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{triminoElegido}});}
+\DoxyCodeLine{52     \textcolor{keywordflow}{return} \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{triminoElegido}};}
+\DoxyCodeLine{53   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Tablero.\+dimension, trimino.\+Estructura.\+elegir\+Estructura(), trimino.\+Tablero.\+marca\+Tablero() y trimino.\+Tablero.\+trimino\+Elegido.
+
+
+
+Referenciado por trimino.\+Trimino.\+llenado\+Cuadrante(), trimino.\+Trimino.\+main(), trimino.\+Trimino.\+recursivo(), trimino.\+Trimino.\+trimino\+Recursivo\+Inferior() y trimino.\+Trimino.\+trimino\+Recursivo\+Superior().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_a629206c5d1c37fb1de5c132b9e7b0f09}\label{classtrimino_1_1Tablero_a629206c5d1c37fb1de5c132b9e7b0f09}} 
+\index{trimino.Tablero@{trimino.Tablero}!getDimension@{getDimension}}
+\index{getDimension@{getDimension}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{getDimension()}{getDimension()}}
+{\footnotesize\ttfamily int trimino.\+Tablero.\+get\+Dimension (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 29 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29                             \{}
+\DoxyCodeLine{30     \textcolor{keywordflow}{return} \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}};}
+\DoxyCodeLine{31   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Tablero.\+dimension.
+
+
+
+Referenciado por trimino.\+Trimino.\+llenado\+Cuadrante(), trimino.\+Trimino.\+main(), trimino.\+Trimino.\+trimino\+Recursivo\+Inferior() y trimino.\+Trimino.\+trimino\+Recursivo\+Superior().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_aafa29cfec6831d2ad31eeb715eb93bee}\label{classtrimino_1_1Tablero_aafa29cfec6831d2ad31eeb715eb93bee}} 
+\index{trimino.Tablero@{trimino.Tablero}!imprimeTablero@{imprimeTablero}}
+\index{imprimeTablero@{imprimeTablero}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{imprimeTablero()}{imprimeTablero()}}
+{\footnotesize\ttfamily void trimino.\+Tablero.\+imprime\+Tablero (\begin{DoxyParamCaption}\item[{int}]{dimension,  }\item[{String}]{nombre\+Fichero }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+
+
+Imprime tablero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dimension} & the dimension \\
+\hline
+{\em nombre\+Fichero} & the nombre fichero \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em I\+O\+Exception} & Signals that an I/O exception has occurred. \\
+\hline
+\end{DoxyExceptions}
+
+
+Definición en la línea 159 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{159                                                                                      \{}
+\DoxyCodeLine{160     \textcolor{keywordflow}{if} (nombreFichero != \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{161       File f = \textcolor{keyword}{new} File(nombreFichero);}
+\DoxyCodeLine{162       \textcolor{keywordflow}{if} (f.exists()) \{}
+\DoxyCodeLine{163         \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Fichero ya existe"});}
+\DoxyCodeLine{164       \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{165         \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{166           FileWriter fw = \textcolor{keyword}{new} FileWriter(nombreFichero);}
+\DoxyCodeLine{167           \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 4; i++) \{}
+\DoxyCodeLine{168             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}; j++) \{}
+\DoxyCodeLine{169               fw.append(\textcolor{stringliteral}{" "} + \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}[i][j]);}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{171             \}}
+\DoxyCodeLine{172             fw.append(\textcolor{charliteral}{'\(\backslash\)n'});}
+\DoxyCodeLine{173           \}}
+\DoxyCodeLine{174           fw.close();}
+\DoxyCodeLine{175 }
+\DoxyCodeLine{176         \} \textcolor{keywordflow}{catch} (IOException e) \{}
+\DoxyCodeLine{177           \textcolor{comment}{// TODO Auto-generated catch block}}
+\DoxyCodeLine{178           e.printStackTrace();}
+\DoxyCodeLine{179         \}}
+\DoxyCodeLine{180       \}}
+\DoxyCodeLine{181     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{182       \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}; i++) \{}
+\DoxyCodeLine{183         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \mbox{\hyperlink{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}{dimension}}; j++) \{}
+\DoxyCodeLine{184           System.out.print(\textcolor{stringliteral}{" "} + \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}[i][j]);}
+\DoxyCodeLine{185         \}}
+\DoxyCodeLine{186         System.out.println();}
+\DoxyCodeLine{187       \}}
+\DoxyCodeLine{188     \}}
+\DoxyCodeLine{189   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Tablero.\+dimension y trimino.\+Tablero.\+triminos.
+
+
+
+Referenciado por trimino.\+Trimino.\+llenado\+Cuadrante(), trimino.\+Trimino.\+main(), trimino.\+Trimino.\+trimino\+Recursivo\+Inferior() y trimino.\+Trimino.\+trimino\+Recursivo\+Superior().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_ae4bc58ebf11214c6e48b0ff7b64eb58e}\label{classtrimino_1_1Tablero_ae4bc58ebf11214c6e48b0ff7b64eb58e}} 
+\index{trimino.Tablero@{trimino.Tablero}!marcaCasillaInicial@{marcaCasillaInicial}}
+\index{marcaCasillaInicial@{marcaCasillaInicial}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{marcaCasillaInicial()}{marcaCasillaInicial()}}
+{\footnotesize\ttfamily void trimino.\+Tablero.\+marca\+Casilla\+Inicial (\begin{DoxyParamCaption}\item[{int}]{fila,  }\item[{int}]{columna }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 33 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33                                                          \{}
+\DoxyCodeLine{34     \textcolor{keywordtype}{char} marcaInicial = \textcolor{charliteral}{'\#'};}
+\DoxyCodeLine{35     \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}[fila - 1][columna - 1] = marcaInicial;}
+\DoxyCodeLine{36   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Tablero.\+triminos.
+
+
+
+Referenciado por trimino.\+Trimino.\+main().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_a03a6bb741611d91f2e5b65ffda02d0e2}\label{classtrimino_1_1Tablero_a03a6bb741611d91f2e5b65ffda02d0e2}} 
+\index{trimino.Tablero@{trimino.Tablero}!marcaTablero@{marcaTablero}}
+\index{marcaTablero@{marcaTablero}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{marcaTablero()}{marcaTablero()}}
+{\footnotesize\ttfamily char \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} trimino.\+Tablero.\+marca\+Tablero (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}} \mbox{[}$\,$\mbox{]}}]{trimino\+Elegido }\end{DoxyParamCaption})}
+
+
+
+Marca tablero. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em trimino\+Elegido} & the trimino elegido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the char\mbox{[}\mbox{]}\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+
+
+Definición en la línea 61 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{61                                                          \{}
+\DoxyCodeLine{62     \textcolor{keywordtype}{boolean} buenTrimino = \textcolor{keyword}{true};}
+\DoxyCodeLine{63     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{triminoElegido}}.length; i++) \{}
+\DoxyCodeLine{64       Casilla casilla = \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{triminoElegido}}[i];}
+\DoxyCodeLine{65       \textcolor{keywordtype}{int} fila = casilla.\mbox{\hyperlink{classtrimino_1_1Casilla_a97678b5862f15d06cde4072444c4a286}{getFila}}();}
+\DoxyCodeLine{66       \textcolor{keywordtype}{int} columna = casilla.getColumna();}
+\DoxyCodeLine{67       \textcolor{keywordflow}{if} (\mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}[fila - 1][columna - 1] != \textcolor{charliteral}{'*'}) \{}
+\DoxyCodeLine{68         buenTrimino = \textcolor{keyword}{false};}
+\DoxyCodeLine{69         \textcolor{keywordflow}{break};}
+\DoxyCodeLine{70       \}}
+\DoxyCodeLine{71     \}}
+\DoxyCodeLine{72     \textcolor{keywordflow}{if} (buenTrimino) \{}
+\DoxyCodeLine{73       \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} = \mbox{\hyperlink{classtrimino_1_1Tablero_a146790a6abfaef08ab62fb5b82cc3cd1}{nuevoSimbolo}}();}
+\DoxyCodeLine{74       \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{triminoElegido}}.length; i++) \{}
+\DoxyCodeLine{75         Casilla casilla = \mbox{\hyperlink{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}{triminoElegido}}[i];}
+\DoxyCodeLine{76         \textcolor{keywordtype}{int} fila = casilla.\mbox{\hyperlink{classtrimino_1_1Casilla_a97678b5862f15d06cde4072444c4a286}{getFila}}();}
+\DoxyCodeLine{77         \textcolor{keywordtype}{int} columna = casilla.getColumna();}
+\DoxyCodeLine{78         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}[fila - 1][columna - 1] == \textcolor{charliteral}{'*'}) \{}
+\DoxyCodeLine{79           \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}}[fila - 1][columna - 1] = \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}};}
+\DoxyCodeLine{80         \}}
+\DoxyCodeLine{81       \}}
+\DoxyCodeLine{82     \}}
+\DoxyCodeLine{83     \textcolor{keywordflow}{return} \mbox{\hyperlink{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}{triminos}};}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Casilla.\+get\+Columna(), trimino.\+Casilla.\+get\+Fila(), trimino.\+Tablero.\+marca, trimino.\+Tablero.\+nuevo\+Simbolo(), trimino.\+Tablero.\+trimino\+Elegido y trimino.\+Tablero.\+triminos.
+
+
+
+Referenciado por trimino.\+Tablero.\+elegir\+Trimino().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_a146790a6abfaef08ab62fb5b82cc3cd1}\label{classtrimino_1_1Tablero_a146790a6abfaef08ab62fb5b82cc3cd1}} 
+\index{trimino.Tablero@{trimino.Tablero}!nuevoSimbolo@{nuevoSimbolo}}
+\index{nuevoSimbolo@{nuevoSimbolo}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{nuevoSimbolo()}{nuevoSimbolo()}}
+{\footnotesize\ttfamily char trimino.\+Tablero.\+nuevo\+Simbolo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Nuevo simbolo. 
+
+\begin{DoxyReturn}{Devuelve}
+the char 
+\end{DoxyReturn}
+
+
+Definición en la línea 196 del archivo Tablero.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{196                              \{}
+\DoxyCodeLine{197     \textcolor{keywordtype}{int} marcaInt = (int) \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}};}
+\DoxyCodeLine{198     \textcolor{keywordtype}{int} nueve = (int) \textcolor{charliteral}{'9'};}
+\DoxyCodeLine{199     \textcolor{keywordflow}{if} (marcaInt < nueve) \{}
+\DoxyCodeLine{200       marcaInt = marcaInt + 1;}
+\DoxyCodeLine{201       \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} = (char) marcaInt;}
+\DoxyCodeLine{202     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{203       \textcolor{keywordflow}{if} (\mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} == \textcolor{charliteral}{'9'}) \{}
+\DoxyCodeLine{204         \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} = \textcolor{charliteral}{'a'};}
+\DoxyCodeLine{205       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} < \textcolor{charliteral}{'z'} \&\& \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} != \textcolor{charliteral}{'Z'}) \{}
+\DoxyCodeLine{206         marcaInt = marcaInt + 1;}
+\DoxyCodeLine{207         \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} = (char) marcaInt;}
+\DoxyCodeLine{208       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} == \textcolor{charliteral}{'z'}) \{}
+\DoxyCodeLine{209         \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} = \textcolor{charliteral}{'A'};}
+\DoxyCodeLine{210       \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} == \textcolor{charliteral}{'Z'}) \{}
+\DoxyCodeLine{211         \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}} = \textcolor{charliteral}{'0'};}
+\DoxyCodeLine{212       \}}
+\DoxyCodeLine{213 }
+\DoxyCodeLine{214     \}}
+\DoxyCodeLine{215     \textcolor{keywordflow}{return} \mbox{\hyperlink{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}{marca}};}
+\DoxyCodeLine{216   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Tablero.\+marca.
+
+
+
+Referenciado por trimino.\+Tablero.\+marca\+Tablero().
+
+
+
+\subsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{classtrimino_1_1Tablero_ac1b1c9acb509c594fcae4b7d7ebb765e}\label{classtrimino_1_1Tablero_ac1b1c9acb509c594fcae4b7d7ebb765e}} 
+\index{trimino.Tablero@{trimino.Tablero}!cuadrantes@{cuadrantes}}
+\index{cuadrantes@{cuadrantes}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{cuadrantes}{cuadrantes}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} trimino.\+Tablero.\+cuadrantes = \{ \char`\"{}C\+SI\char`\"{}, \char`\"{}C\+SD\char`\"{}, \char`\"{}C\+II\char`\"{}, \char`\"{}C\+ID\char`\"{} \}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 10 del archivo Tablero.\+java.
+
+
+
+Referenciado por trimino.\+Tablero.\+definir\+Cuadrante().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}\label{classtrimino_1_1Tablero_a99d732d6a9b3b2d75ed7bc5bbe6a22f7}} 
+\index{trimino.Tablero@{trimino.Tablero}!dimension@{dimension}}
+\index{dimension@{dimension}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{dimension}{dimension}}
+{\footnotesize\ttfamily int trimino.\+Tablero.\+dimension\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 8 del archivo Tablero.\+java.
+
+
+
+Referenciado por trimino.\+Tablero.\+definir\+Cuadrante(), trimino.\+Tablero.\+elegir\+Trimino(), trimino.\+Tablero.\+get\+Dimension(), trimino.\+Tablero.\+imprime\+Tablero() y trimino.\+Tablero.\+Tablero().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}\label{classtrimino_1_1Tablero_a8b1b74a3a0b60de392313de57a6ea404}} 
+\index{trimino.Tablero@{trimino.Tablero}!marca@{marca}}
+\index{marca@{marca}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{marca}{marca}}
+{\footnotesize\ttfamily char trimino.\+Tablero.\+marca = \textquotesingle{}0\textquotesingle{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Definición en la línea 12 del archivo Tablero.\+java.
+
+
+
+Referenciado por trimino.\+Tablero.\+marca\+Tablero() y trimino.\+Tablero.\+nuevo\+Simbolo().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}\label{classtrimino_1_1Tablero_ae28469f3840e1b257a45e3002f04cd7a}} 
+\index{trimino.Tablero@{trimino.Tablero}!triminoElegido@{triminoElegido}}
+\index{triminoElegido@{triminoElegido}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{triminoElegido}{triminoElegido}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}} \mbox{[}$\,$\mbox{]} trimino.\+Tablero.\+trimino\+Elegido\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 11 del archivo Tablero.\+java.
+
+
+
+Referenciado por trimino.\+Tablero.\+elegir\+Trimino() y trimino.\+Tablero.\+marca\+Tablero().
+
+\mbox{\Hypertarget{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}\label{classtrimino_1_1Tablero_ab8955124b813666eeff506cf3a71c387}} 
+\index{trimino.Tablero@{trimino.Tablero}!triminos@{triminos}}
+\index{triminos@{triminos}!trimino.Tablero@{trimino.Tablero}}
+\subsubsection{\texorpdfstring{triminos}{triminos}}
+{\footnotesize\ttfamily char \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} trimino.\+Tablero.\+triminos\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definición en la línea 9 del archivo Tablero.\+java.
+
+
+
+Referenciado por trimino.\+Tablero.\+imprime\+Tablero(), trimino.\+Tablero.\+marca\+Casilla\+Inicial(), trimino.\+Tablero.\+marca\+Tablero() y trimino.\+Tablero.\+Tablero().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/trimino/\mbox{\hyperlink{Tablero_8java}{Tablero.\+java}}\end{DoxyCompactItemize}

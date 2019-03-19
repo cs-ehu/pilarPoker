@@ -1,0 +1,194 @@
+\hypertarget{classtrimino_1_1Estructura}{}\section{Referencia de la Clase trimino.\+Estructura}
+\label{classtrimino_1_1Estructura}\index{trimino.Estructura@{trimino.Estructura}}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}} \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classtrimino_1_1Estructura_a57ca625d499da9626af969cf4c0c9085}{elegir\+Estructura}} (int dimension, String cuadrante, int fila\+Trimino, int columna\+Trimino, int dimension\+Tablero)
+\begin{DoxyCompactList}\small\item\em Elegir estructura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 3 del archivo Estructura.\+java.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classtrimino_1_1Estructura_a57ca625d499da9626af969cf4c0c9085}\label{classtrimino_1_1Estructura_a57ca625d499da9626af969cf4c0c9085}} 
+\index{trimino.Estructura@{trimino.Estructura}!elegirEstructura@{elegirEstructura}}
+\index{elegirEstructura@{elegirEstructura}!trimino.Estructura@{trimino.Estructura}}
+\subsubsection{\texorpdfstring{elegirEstructura()}{elegirEstructura()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classtrimino_1_1Casilla}{Casilla}} \mbox{[}$\,$\mbox{]} trimino.\+Estructura.\+elegir\+Estructura (\begin{DoxyParamCaption}\item[{int}]{dimension,  }\item[{String}]{cuadrante,  }\item[{int}]{fila\+Trimino,  }\item[{int}]{columna\+Trimino,  }\item[{int}]{dimension\+Tablero }\end{DoxyParamCaption})}
+
+
+
+Elegir estructura. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dimension} & the dimension \\
+\hline
+{\em cuadrante} & the cuadrante \\
+\hline
+{\em fila\+Trimino} & the fila trimino \\
+\hline
+{\em columna\+Trimino} & the columna trimino \\
+\hline
+{\em dimension\+Tablero} & the dimension tablero \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the casilla\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+
+
+Definición en la línea 15 del archivo Estructura.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{16                             \{}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{comment}{/********** MI COSECHA **********************/}}
+\DoxyCodeLine{19     \textcolor{comment}{// Tablero noseque= new Tablero (dimensionTablero);}}
+\DoxyCodeLine{20     \textcolor{comment}{// Tablero nuevoTrimino= new Tablero(dimensionTablero);}}
+\DoxyCodeLine{21     \textcolor{comment}{/********** HASTA LA FECHA **********************/}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23     Casilla[] triminoElegido = \textcolor{keyword}{new} Casilla[3];}
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} movilidadFila = 0;}
+\DoxyCodeLine{25     \textcolor{keywordtype}{int} movilidadCol = 0;}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27     \textcolor{comment}{/********* FILA *****************/}}
+\DoxyCodeLine{28     \textcolor{keywordflow}{if} (filaTrimino <= dimension) \{}
+\DoxyCodeLine{29       movilidadFila = 0;}
+\DoxyCodeLine{30     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{31       \textcolor{keywordtype}{int} i = 0;}
+\DoxyCodeLine{32       \textcolor{keywordflow}{while} ((i + dimension) <= dimensionTablero) \{}
+\DoxyCodeLine{33         \textcolor{keywordflow}{if} ((filaTrimino > i) \&\& (filaTrimino <= (i + dimension))) \{}
+\DoxyCodeLine{34           movilidadFila = i;}
+\DoxyCodeLine{35           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{36         \}}
+\DoxyCodeLine{37         i = i + dimension;}
+\DoxyCodeLine{38       \}}
+\DoxyCodeLine{39     \}}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41     \textcolor{comment}{/******** COLUMNA ****************/}}
+\DoxyCodeLine{42     \textcolor{keywordflow}{if} (columnaTrimino <= dimension) \{}
+\DoxyCodeLine{43       movilidadCol = 0;}
+\DoxyCodeLine{44     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{45       \textcolor{keywordtype}{int} i = 0;}
+\DoxyCodeLine{46       \textcolor{keywordflow}{while} ((i + dimension) <= dimensionTablero) \{}
+\DoxyCodeLine{47         \textcolor{keywordflow}{if} ((columnaTrimino > i) \&\& (columnaTrimino <= (i + dimension))) \{}
+\DoxyCodeLine{48           movilidadCol = i;}
+\DoxyCodeLine{49           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{50         \}}
+\DoxyCodeLine{51         i = i + dimension;}
+\DoxyCodeLine{52       \}}
+\DoxyCodeLine{53     \}}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55     \textcolor{keywordflow}{if} (cuadrante.equals(\textcolor{stringliteral}{"CSD"})) \{}
+\DoxyCodeLine{56       Casilla casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{57       \textcolor{keywordtype}{int} fila = dimension / 2;}
+\DoxyCodeLine{58       \textcolor{keywordtype}{int} columna = dimension / 2;}
+\DoxyCodeLine{59       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{60       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{61       triminoElegido[0] = casilla;}
+\DoxyCodeLine{62       \textcolor{comment}{/********** MI COSECHA **********************/}}
+\DoxyCodeLine{63       \textcolor{comment}{// dimension=dimension/2;}}
+\DoxyCodeLine{64       \textcolor{comment}{// String nuevoCuadrante= noseque.definirCuadrante(casilla.getFila(),}}
+\DoxyCodeLine{65       \textcolor{comment}{// casilla.getColumna(), dimensionTablero);}}
+\DoxyCodeLine{66       \textcolor{comment}{// nuevoTrimino.elegirTrimino(casilla.getFila(), casilla.getColumna(),}}
+\DoxyCodeLine{67       \textcolor{comment}{// nuevoCuadrante, dimensionTablero, dimension);}}
+\DoxyCodeLine{68       \textcolor{comment}{/********** HASTA LA FECHA **********************/}}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{70       fila = dimension / 2 + 1;}
+\DoxyCodeLine{71       columna = dimension / 2;}
+\DoxyCodeLine{72       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{73       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{74       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{75       triminoElegido[1] = casilla;}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77       fila = dimension / 2 + 1;}
+\DoxyCodeLine{78       columna = dimension / 2 + 1;}
+\DoxyCodeLine{79       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{80       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{81       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{82       triminoElegido[2] = casilla;}
+\DoxyCodeLine{83     \}}
+\DoxyCodeLine{84     \textcolor{keywordflow}{if} (cuadrante.equals(\textcolor{stringliteral}{"CSI"})) \{}
+\DoxyCodeLine{85       Casilla casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{86       \textcolor{keywordtype}{int} fila = dimension / 2;}
+\DoxyCodeLine{87       \textcolor{keywordtype}{int} columna = dimension / 2 + 1;}
+\DoxyCodeLine{88       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{89       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{90       triminoElegido[0] = casilla;}
+\DoxyCodeLine{91       fila = dimension / 2 + 1;}
+\DoxyCodeLine{92       columna = dimension / 2 + 1;}
+\DoxyCodeLine{93       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{94       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{95       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{96       triminoElegido[1] = casilla;}
+\DoxyCodeLine{97       fila = dimension / 2 + 1;}
+\DoxyCodeLine{98       columna = dimension / 2;}
+\DoxyCodeLine{99       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{100       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{101       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{102       triminoElegido[2] = casilla;}
+\DoxyCodeLine{103     \}}
+\DoxyCodeLine{104     \textcolor{keywordflow}{if} (cuadrante.equals(\textcolor{stringliteral}{"CID"})) \{}
+\DoxyCodeLine{105       Casilla casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{106       \textcolor{keywordtype}{int} fila = dimension / 2;}
+\DoxyCodeLine{107       \textcolor{keywordtype}{int} columna = dimension / 2 + 1;}
+\DoxyCodeLine{108       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{109       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{110       triminoElegido[0] = casilla;}
+\DoxyCodeLine{111       fila = dimension / 2 + 1;}
+\DoxyCodeLine{112       columna = dimension / 2;}
+\DoxyCodeLine{113       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{114       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{115       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{116       triminoElegido[1] = casilla;}
+\DoxyCodeLine{117       fila = dimension / 2;}
+\DoxyCodeLine{118       columna = dimension / 2;}
+\DoxyCodeLine{119       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{120       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{121       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{122       triminoElegido[2] = casilla;}
+\DoxyCodeLine{123     \}}
+\DoxyCodeLine{124     \textcolor{keywordflow}{if} (cuadrante.equals(\textcolor{stringliteral}{"CII"})) \{}
+\DoxyCodeLine{125       Casilla casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{126       \textcolor{keywordtype}{int} fila = dimension / 2;}
+\DoxyCodeLine{127       \textcolor{keywordtype}{int} columna = dimension / 2;}
+\DoxyCodeLine{128       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{129       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{130       triminoElegido[0] = casilla;}
+\DoxyCodeLine{131       fila = dimension / 2;}
+\DoxyCodeLine{132       columna = dimension / 2 + 1;}
+\DoxyCodeLine{133       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{134       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{135       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{136       triminoElegido[1] = casilla;}
+\DoxyCodeLine{137       fila = dimension / 2 + 1;}
+\DoxyCodeLine{138       columna = dimension / 2 + 1;}
+\DoxyCodeLine{139       casilla = \textcolor{keyword}{new} Casilla();}
+\DoxyCodeLine{140       casilla.setFila(fila + movilidadFila);}
+\DoxyCodeLine{141       casilla.setColumna(columna + movilidadCol);}
+\DoxyCodeLine{142       triminoElegido[2] = casilla;}
+\DoxyCodeLine{143     \}}
+\DoxyCodeLine{144     \textcolor{keywordflow}{return} triminoElegido;}
+\DoxyCodeLine{145   \}}
+
+\end{DoxyCode}
+
+
+Hace referencia a trimino.\+Casilla.\+set\+Columna() y trimino.\+Casilla.\+set\+Fila().
+
+
+
+Referenciado por trimino.\+Tablero.\+elegir\+Trimino().
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/trimino/\mbox{\hyperlink{Estructura_8java}{Estructura.\+java}}\end{DoxyCompactItemize}

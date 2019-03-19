@@ -1,0 +1,2672 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Trimino  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+v.1 \par
+}}Trimino}
+{\comment Generado por doxygen.}
+{\creatim \yr2019\mo3\dy19\hr12\min17\sec44}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Trimino}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Versi\'F3n v.1\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt Martes, 19 de Marzo de 2019 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Tabla de contenidos\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indice de namespaces\par \pard\plain 
+{\tc \v Indice de namespaces}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Paquetes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Aqu\'ED van los paquetes con una breve descripci\'F3n (si et\'E1 disponible):}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b trimino} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice de clases\par \pard\plain 
+{\tc \v \'CDndice de clases}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de clases\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de las clases, estructuras, uniones e interfaces con una breve descripci\'F3n:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b trimino.Casilla} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b trimino.Estructura} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b trimino.Letras} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b trimino.Tablero} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b trimino.Trimino} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b trimino.TriminoDimension} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indice de archivos\par \pard\plain 
+{\tc \v Indice de archivos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de archivos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de todos los archivos con descripciones breves:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Trimino.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b triminoBak.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/trimino/{\b Casilla.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/trimino/{\b Estructura.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/trimino/{\b Letras.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/trimino/{\b Tablero.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/trimino/{\b Trimino.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b src/trimino/{\b TriminoDimension.java} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documentaci\'F3n de namespaces\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Paquetes trimino\par \pard\plain 
+{\tc\tcl2 \v trimino}
+{\xe \v trimino}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Casilla}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Estructura}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Letras}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Tablero}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Trimino}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b TriminoDimension}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documentaci\'F3n de las clases{\tc \v Documentaci\'F3n de las clases}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase trimino.Casilla\par \pard\plain 
+{\tc\tcl2 \v trimino.Casilla}
+{\xe \v trimino.Casilla}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Casilla} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Casilla} (int {\b fila}, int {\b columna})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getFila} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setFila} (int {\b fila})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getColumna} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setColumna} (int {\b columna})\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos privados\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b fila}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b columna}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descripci\'F3n detallada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definici\'F3n en la l\'EDnea 3 del archivo Casilla.java.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v Casilla\:trimino.Casilla}
+{\xe \v trimino.Casilla\:Casilla}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+trimino.Casilla.Casilla ()}}
+\par
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 7 del archivo Casilla.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     7                    \{\par
+    8   \}\par
+}
+}
+{\xe \v Casilla\:trimino.Casilla}
+{\xe \v trimino.Casilla\:Casilla}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+trimino.Casilla.Casilla (int  {\i fila}, int  {\i columna})}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 10 del archivo Casilla.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    10                                         \{\par
+   11     this.fila = fila;\par
+   12     this.columna = columna;\par
+   13   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.columna y trimino.Casilla.fila.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v getColumna\:trimino.Casilla}
+{\xe \v trimino.Casilla\:getColumna}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.Casilla.getColumna ()}}
+\par
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 23 del archivo Casilla.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    23                           \{\par
+   24     {\cf19 return} columna;\par
+   25   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.columna.}\par
+{
+\ql
+Referenciado por trimino.Trimino.main(), trimino.Tablero.marcaTablero(), trimino.Trimino.recursivoTriminos(), trimino.Trimino.triminoRecursivoInferior() y trimino.Trimino.triminoRecursivoSuperior().}\par
+}
+{\xe \v getFila\:trimino.Casilla}
+{\xe \v trimino.Casilla\:getFila}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.Casilla.getFila ()}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 15 del archivo Casilla.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    15                        \{\par
+   16     {\cf19 return} fila;\par
+   17   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.fila.}\par
+{
+\ql
+Referenciado por trimino.Trimino.main(), trimino.Tablero.marcaTablero(), trimino.Trimino.recursivoTriminos(), trimino.Trimino.triminoRecursivoInferior() y trimino.Trimino.triminoRecursivoSuperior().}\par
+}
+{\xe \v setColumna\:trimino.Casilla}
+{\xe \v trimino.Casilla\:setColumna}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.Casilla.setColumna (int  {\i columna})}}
+\par
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 27 del archivo Casilla.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    27                                       \{\par
+   28     this.columna = columna;\par
+   29   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.columna.}\par
+{
+\ql
+Referenciado por trimino.Estructura.elegirEstructura().}\par
+}
+{\xe \v setFila\:trimino.Casilla}
+{\xe \v trimino.Casilla\:setFila}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.Casilla.setFila (int  {\i fila})}}
+\par
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 19 del archivo Casilla.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    19                                 \{\par
+   20     this.fila = fila;\par
+   21   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.fila.}\par
+{
+\ql
+Referenciado por trimino.Estructura.elegirEstructura().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de los datos miembro\par
+\pard\plain 
+{\xe \v columna\:trimino.Casilla}
+{\xe \v trimino.Casilla\:columna}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.Casilla.columna{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 5 del archivo Casilla.java.}\par
+{
+\ql
+Referenciado por trimino.Casilla.Casilla(), trimino.Casilla.getColumna() y trimino.Casilla.setColumna().}\par
+}
+{\xe \v fila\:trimino.Casilla}
+{\xe \v trimino.Casilla\:fila}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.Casilla.fila{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 4 del archivo Casilla.java.}\par
+{
+\ql
+Referenciado por trimino.Casilla.Casilla(), trimino.Casilla.getFila() y trimino.Casilla.setFila().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/trimino/{\b Casilla.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase trimino.Estructura\par \pard\plain 
+{\tc\tcl2 \v trimino.Estructura}
+{\xe \v trimino.Estructura}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Casilla} [] {\b elegirEstructura} (int dimension, String cuadrante, int filaTrimino, int columnaTrimino, int dimensionTablero)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Elegir estructura. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descripci\'F3n detallada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definici\'F3n en la l\'EDnea 3 del archivo Estructura.java.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v elegirEstructura\:trimino.Estructura}
+{\xe \v trimino.Estructura\:elegirEstructura}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Casilla} [] trimino.Estructura.elegirEstructura (int  {\i dimension}, String  {\i cuadrante}, int  {\i filaTrimino}, int  {\i columnaTrimino}, int  {\i dimensionTablero})}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Elegir estructura. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimension} \cell }{the dimension \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i cuadrante} \cell }{the cuadrante \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i filaTrimino} \cell }{the fila trimino \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i columnaTrimino} \cell }{the columna trimino \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimensionTablero} \cell }{the dimension tablero \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid the casilla[] \par
+}}{
+Definici\'F3n en la l\'EDnea 15 del archivo Estructura.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    16                             \{\par
+   17 \par
+   18     {\cf20 /********** MI COSECHA **********************/}\par
+   19     {\cf20 // Tablero noseque= new Tablero (dimensionTablero);}\par
+   20     {\cf20 // Tablero nuevoTrimino= new Tablero(dimensionTablero);}\par
+   21     {\cf20 /********** HASTA LA FECHA **********************/}\par
+   22 \par
+   23     Casilla[] triminoElegido = {\cf17 new} Casilla[3];\par
+   24     {\cf18 int} movilidadFila = 0;\par
+   25     {\cf18 int} movilidadCol = 0;\par
+   26 \par
+   27     {\cf20 /********* FILA *****************/}\par
+   28     {\cf19 if} (filaTrimino <= dimension) \{\par
+   29       movilidadFila = 0;\par
+   30     \} {\cf19 else} \{\par
+   31       {\cf18 int} i = 0;\par
+   32       {\cf19 while} ((i + dimension) <= dimensionTablero) \{\par
+   33         {\cf19 if} ((filaTrimino > i) && (filaTrimino <= (i + dimension))) \{\par
+   34           movilidadFila = i;\par
+   35           {\cf19 break};\par
+   36         \}\par
+   37         i = i + dimension;\par
+   38       \}\par
+   39     \}\par
+   40 \par
+   41     {\cf20 /******** COLUMNA ****************/}\par
+   42     {\cf19 if} (columnaTrimino <= dimension) \{\par
+   43       movilidadCol = 0;\par
+   44     \} {\cf19 else} \{\par
+   45       {\cf18 int} i = 0;\par
+   46       {\cf19 while} ((i + dimension) <= dimensionTablero) \{\par
+   47         {\cf19 if} ((columnaTrimino > i) && (columnaTrimino <= (i + dimension))) \{\par
+   48           movilidadCol = i;\par
+   49           {\cf19 break};\par
+   50         \}\par
+   51         i = i + dimension;\par
+   52       \}\par
+   53     \}\par
+   54 \par
+   55     {\cf19 if} (cuadrante.equals({\cf22 "CSD"})) \{\par
+   56       Casilla casilla = {\cf17 new} Casilla();\par
+   57       {\cf18 int} fila = dimension / 2;\par
+   58       {\cf18 int} columna = dimension / 2;\par
+   59       casilla.setFila(fila + movilidadFila);\par
+   60       casilla.setColumna(columna + movilidadCol);\par
+   61       triminoElegido[0] = casilla;\par
+   62       {\cf20 /********** MI COSECHA **********************/}\par
+   63       {\cf20 // dimension=dimension/2;}\par
+   64       {\cf20 // String nuevoCuadrante= noseque.definirCuadrante(casilla.getFila(),}\par
+   65       {\cf20 // casilla.getColumna(), dimensionTablero);}\par
+   66       {\cf20 // nuevoTrimino.elegirTrimino(casilla.getFila(), casilla.getColumna(),}\par
+   67       {\cf20 // nuevoCuadrante, dimensionTablero, dimension);}\par
+   68       {\cf20 /********** HASTA LA FECHA **********************/}\par
+   69 \par
+   70       fila = dimension / 2 + 1;\par
+   71       columna = dimension / 2;\par
+   72       casilla = {\cf17 new} Casilla();\par
+   73       casilla.setFila(fila + movilidadFila);\par
+   74       casilla.setColumna(columna + movilidadCol);\par
+   75       triminoElegido[1] = casilla;\par
+   76 \par
+   77       fila = dimension / 2 + 1;\par
+   78       columna = dimension / 2 + 1;\par
+   79       casilla = {\cf17 new} Casilla();\par
+   80       casilla.setFila(fila + movilidadFila);\par
+   81       casilla.setColumna(columna + movilidadCol);\par
+   82       triminoElegido[2] = casilla;\par
+   83     \}\par
+   84     {\cf19 if} (cuadrante.equals({\cf22 "CSI"})) \{\par
+   85       Casilla casilla = {\cf17 new} Casilla();\par
+   86       {\cf18 int} fila = dimension / 2;\par
+   87       {\cf18 int} columna = dimension / 2 + 1;\par
+   88       casilla.setFila(fila + movilidadFila);\par
+   89       casilla.setColumna(columna + movilidadCol);\par
+   90       triminoElegido[0] = casilla;\par
+   91       fila = dimension / 2 + 1;\par
+   92       columna = dimension / 2 + 1;\par
+   93       casilla = {\cf17 new} Casilla();\par
+   94       casilla.setFila(fila + movilidadFila);\par
+   95       casilla.setColumna(columna + movilidadCol);\par
+   96       triminoElegido[1] = casilla;\par
+   97       fila = dimension / 2 + 1;\par
+   98       columna = dimension / 2;\par
+   99       casilla = {\cf17 new} Casilla();\par
+  100       casilla.setFila(fila + movilidadFila);\par
+  101       casilla.setColumna(columna + movilidadCol);\par
+  102       triminoElegido[2] = casilla;\par
+  103     \}\par
+  104     {\cf19 if} (cuadrante.equals({\cf22 "CID"})) \{\par
+  105       Casilla casilla = {\cf17 new} Casilla();\par
+  106       {\cf18 int} fila = dimension / 2;\par
+  107       {\cf18 int} columna = dimension / 2 + 1;\par
+  108       casilla.setFila(fila + movilidadFila);\par
+  109       casilla.setColumna(columna + movilidadCol);\par
+  110       triminoElegido[0] = casilla;\par
+  111       fila = dimension / 2 + 1;\par
+  112       columna = dimension / 2;\par
+  113       casilla = {\cf17 new} Casilla();\par
+  114       casilla.setFila(fila + movilidadFila);\par
+  115       casilla.setColumna(columna + movilidadCol);\par
+  116       triminoElegido[1] = casilla;\par
+  117       fila = dimension / 2;\par
+  118       columna = dimension / 2;\par
+  119       casilla = {\cf17 new} Casilla();\par
+  120       casilla.setFila(fila + movilidadFila);\par
+  121       casilla.setColumna(columna + movilidadCol);\par
+  122       triminoElegido[2] = casilla;\par
+  123     \}\par
+  124     {\cf19 if} (cuadrante.equals({\cf22 "CII"})) \{\par
+  125       Casilla casilla = {\cf17 new} Casilla();\par
+  126       {\cf18 int} fila = dimension / 2;\par
+  127       {\cf18 int} columna = dimension / 2;\par
+  128       casilla.setFila(fila + movilidadFila);\par
+  129       casilla.setColumna(columna + movilidadCol);\par
+  130       triminoElegido[0] = casilla;\par
+  131       fila = dimension / 2;\par
+  132       columna = dimension / 2 + 1;\par
+  133       casilla = {\cf17 new} Casilla();\par
+  134       casilla.setFila(fila + movilidadFila);\par
+  135       casilla.setColumna(columna + movilidadCol);\par
+  136       triminoElegido[1] = casilla;\par
+  137       fila = dimension / 2 + 1;\par
+  138       columna = dimension / 2 + 1;\par
+  139       casilla = {\cf17 new} Casilla();\par
+  140       casilla.setFila(fila + movilidadFila);\par
+  141       casilla.setColumna(columna + movilidadCol);\par
+  142       triminoElegido[2] = casilla;\par
+  143     \}\par
+  144     {\cf19 return} triminoElegido;\par
+  145   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.setColumna() y trimino.Casilla.setFila().}\par
+{
+\ql
+Referenciado por trimino.Tablero.elegirTrimino().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/trimino/{\b Estructura.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase trimino.Letras\par \pard\plain 
+{\tc\tcl2 \v trimino.Letras}
+{\xe \v trimino.Letras}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos est\'E1ticos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b main} (String[] args)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The main method. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descripci\'F3n detallada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definici\'F3n en la l\'EDnea 3 del archivo Letras.java.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v main\:trimino.Letras}
+{\xe \v trimino.Letras\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Letras.main (String []  {\i args}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The main method. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i args} \cell }{the arguments \cell }
+{\row }
+}
+}{
+Definici\'F3n en la l\'EDnea 11 del archivo Letras.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    11                                          \{\par
+   12     {\cf18 int} marcaInt = (int) {\cf23 'a'};\par
+   13     System.out.println(marcaInt);\par
+   14     marcaInt = (int) {\cf23 'A'};\par
+   15     System.out.println(marcaInt);\par
+   16     marcaInt = (int) {\cf23 'z'};\par
+   17     System.out.println(marcaInt);\par
+   18     marcaInt = (int) {\cf23 'Z'};\par
+   19     System.out.println(marcaInt);\par
+   20     {\cf18 char} letra = (char) 91;\par
+   21     System.out.println(letra);\par
+   22 \par
+   23   \}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/trimino/{\b Letras.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase trimino.Tablero\par \pard\plain 
+{\tc\tcl2 \v trimino.Tablero}
+{\xe \v trimino.Tablero}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Tablero} (int {\b dimension})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Instantiates a new tablero. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getDimension} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b marcaCasillaInicial} (int fila, int columna)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Casilla} [] {\b elegirTrimino} (int fila, int columna, String cuadrante, int dimensionTablero, int {\b dimension})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Elegir trimino. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char [][] {\b marcaTablero} ({\b Casilla}[] {\b triminoElegido})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Marca tablero. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String {\b definirCuadrante} (int fila, int columna, int {\b dimension})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Definir cuadrante. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b imprimeTablero} (int {\b dimension}, String nombreFichero)  throws IOException \par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Imprime tablero. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char {\b nuevoSimbolo} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Nuevo simbolo. }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos Est\'E1ticos del 'package'\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static char {\b marca} = '0'\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos privados\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b dimension}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+char [][] {\b triminos}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+String [] {\b cuadrantes} = \{ "CSI", "CSD", "CII", "CID" \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Casilla} [] {\b triminoElegido}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descripci\'F3n detallada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definici\'F3n en la l\'EDnea 7 del archivo Tablero.java.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n del constructor y destructor\par
+\pard\plain 
+{\xe \v Tablero\:trimino.Tablero}
+{\xe \v trimino.Tablero\:Tablero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+trimino.Tablero.Tablero (int  {\i dimension})}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Instantiates a new tablero. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimension} \cell }{the dimension \cell }
+{\row }
+}
+}{
+Definici\'F3n en la l\'EDnea 19 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    19                                 \{\par
+   20     this.dimension = dimension;\par
+   21     triminos = {\cf17 new} {\cf18 char}[dimension][dimension];\par
+   22     {\cf19 for} ({\cf18 int} i = 0; i < dimension; i++) \{\par
+   23       {\cf19 for} ({\cf18 int} j = 0; j < dimension; j++) \{\par
+   24         triminos[i][j] = {\cf23 '*'};\par
+   25       \}\par
+   26     \}\par
+   27   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.dimension y trimino.Tablero.triminos.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v definirCuadrante\:trimino.Tablero}
+{\xe \v trimino.Tablero\:definirCuadrante}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String trimino.Tablero.definirCuadrante (int  {\i fila}, int  {\i columna}, int  {\i dimension})}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Definir cuadrante. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i fila} \cell }{the fila \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i columna} \cell }{the columna \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimension} \cell }{the dimension \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid the string \par
+}}{
+Definici\'F3n en la l\'EDnea 95 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    95                                                                        \{\par
+   96     String cuadrante = {\cf22 ""};\par
+   97     {\cf18 int} filaCuadrante = 0;\par
+   98     {\cf18 int} columnaCuadrante = 0;\par
+   99 \par
+  100     {\cf20 /********* FILA *****************/}\par
+  101     {\cf19 if} (fila <= dimension) \{\par
+  102       filaCuadrante = fila;\par
+  103     \} {\cf19 else} \{\par
+  104       {\cf18 int} i = 0;\par
+  105       {\cf18 int} movilidadFila = 0;\par
+  106       {\cf19 while} ((i + dimension) <= this.dimension) \{\par
+  107         {\cf19 if} ((fila > i) && (fila <= (i + dimension))) \{\par
+  108           movilidadFila = i;\par
+  109           {\cf19 break};\par
+  110         \}\par
+  111         i = i + dimension;\par
+  112       \}\par
+  113       filaCuadrante = fila - movilidadFila;\par
+  114     \}\par
+  115 \par
+  116     {\cf20 /******** COLUMNA ****************/}\par
+  117     {\cf19 if} (columna <= dimension) \{\par
+  118       columnaCuadrante = columna;\par
+  119     \} {\cf19 else} \{\par
+  120       {\cf18 int} i = 0;\par
+  121       {\cf18 int} movilidadCol = 0;\par
+  122       {\cf19 while} ((i + dimension) <= this.dimension) \{\par
+  123         {\cf19 if} ((columna > i) && (columna <= (i + dimension))) \{\par
+  124           movilidadCol = i;\par
+  125           {\cf19 break};\par
+  126         \}\par
+  127         i = i + dimension;\par
+  128       \}\par
+  129       columnaCuadrante = columna - movilidadCol;\par
+  130     \}\par
+  131 \par
+  132     {\cf19 if} ((filaCuadrante <= (dimension / 2)) && (filaCuadrante >= 1) && (columnaCuadrante <= (dimension / 2))\par
+  133         && (columnaCuadrante >= 1)) \{\par
+  134       cuadrante = cuadrantes[0];\par
+  135     \}\par
+  136     {\cf19 if} ((filaCuadrante <= (dimension / 2)) && (filaCuadrante >= 1) && (columnaCuadrante <= dimension)\par
+  137         && (columnaCuadrante >= ((dimension / 2) + 1))) \{\par
+  138       cuadrante = cuadrantes[1];\par
+  139     \}\par
+  140     {\cf19 if} ((filaCuadrante <= dimension) && (filaCuadrante >= ((dimension / 2) + 1))\par
+  141         && (columnaCuadrante <= (dimension / 2)) && (columnaCuadrante >= 1)) \{\par
+  142       cuadrante = cuadrantes[2];\par
+  143     \}\par
+  144     {\cf19 if} ((filaCuadrante <= dimension) && (filaCuadrante >= ((dimension / 2) + 1)) && (columnaCuadrante <= dimension)\par
+  145         && (columnaCuadrante >= ((dimension / 2) + 1))) \{\par
+  146       cuadrante = cuadrantes[3];\par
+  147     \}\par
+  148     {\cf19 return} cuadrante;\par
+  149 \par
+  150   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.cuadrantes y trimino.Tablero.dimension.}\par
+{
+\ql
+Referenciado por trimino.Trimino.llenadoCuadrante(), trimino.Trimino.main(), trimino.Trimino.recursivo(), trimino.Trimino.triminoRecursivoInferior() y trimino.Trimino.triminoRecursivoSuperior().}\par
+}
+{\xe \v elegirTrimino\:trimino.Tablero}
+{\xe \v trimino.Tablero\:elegirTrimino}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Casilla} [] trimino.Tablero.elegirTrimino (int  {\i fila}, int  {\i columna}, String  {\i cuadrante}, int  {\i dimensionTablero}, int  {\i dimension})}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Elegir trimino. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i fila} \cell }{the fila \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i columna} \cell }{the columna \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i cuadrante} \cell }{the cuadrante \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimensionTablero} \cell }{the dimension tablero \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimension} \cell }{the dimension \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid the casilla[] \par
+}}{
+Definici\'F3n en la l\'EDnea 48 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    48                                                                                                                \{\par
+   49     Estructura estructura = {\cf17 new} Estructura();\par
+   50     triminoElegido = estructura.elegirEstructura(dimension, cuadrante, fila, columna, dimensionTablero);\par
+   51     marcaTablero(triminoElegido);\par
+   52     {\cf19 return} triminoElegido;\par
+   53   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.dimension, trimino.Estructura.elegirEstructura(), trimino.Tablero.marcaTablero() y trimino.Tablero.triminoElegido.}\par
+{
+\ql
+Referenciado por trimino.Trimino.llenadoCuadrante(), trimino.Trimino.main(), trimino.Trimino.recursivo(), trimino.Trimino.triminoRecursivoInferior() y trimino.Trimino.triminoRecursivoSuperior().}\par
+}
+{\xe \v getDimension\:trimino.Tablero}
+{\xe \v trimino.Tablero\:getDimension}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.Tablero.getDimension ()}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 29 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    29                             \{\par
+   30     {\cf19 return} dimension;\par
+   31   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.dimension.}\par
+{
+\ql
+Referenciado por trimino.Trimino.llenadoCuadrante(), trimino.Trimino.main(), trimino.Trimino.triminoRecursivoInferior() y trimino.Trimino.triminoRecursivoSuperior().}\par
+}
+{\xe \v imprimeTablero\:trimino.Tablero}
+{\xe \v trimino.Tablero\:imprimeTablero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.Tablero.imprimeTablero (int  {\i dimension}, String  {\i nombreFichero}) throws IOException}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Imprime tablero. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimension} \cell }{the dimension \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nombreFichero} \cell }{the nombre fichero \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Excepciones:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i IOException} \cell }{Signals that an I/O exception has occurred. \cell }
+{\row }
+}
+}{
+Definici\'F3n en la l\'EDnea 159 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   159                                                                                      \{\par
+  160     {\cf19 if} (nombreFichero != {\cf17 null}) \{\par
+  161       File f = {\cf17 new} File(nombreFichero);\par
+  162       {\cf19 if} (f.exists()) \{\par
+  163         {\cf19 throw} {\cf17 new} IOException({\cf22 "Fichero ya existe"});\par
+  164       \} {\cf19 else} \{\par
+  165         {\cf19 try} \{\par
+  166           FileWriter fw = {\cf17 new} FileWriter(nombreFichero);\par
+  167           {\cf19 for} ({\cf18 int} i = 0; i < 4; i++) \{\par
+  168             {\cf19 for} ({\cf18 int} j = 0; j < dimension; j++) \{\par
+  169               fw.append({\cf22 " "} + triminos[i][j]);\par
+  170 \par
+  171             \}\par
+  172             fw.append({\cf23 '\\n'});\par
+  173           \}\par
+  174           fw.close();\par
+  175 \par
+  176         \} {\cf19 catch} (IOException e) \{\par
+  177           {\cf20 // TODO Auto-generated catch block}\par
+  178           e.printStackTrace();\par
+  179         \}\par
+  180       \}\par
+  181     \} {\cf19 else} \{\par
+  182       {\cf19 for} ({\cf18 int} i = 0; i < dimension; i++) \{\par
+  183         {\cf19 for} ({\cf18 int} j = 0; j < dimension; j++) \{\par
+  184           System.out.print({\cf22 " "} + triminos[i][j]);\par
+  185         \}\par
+  186         System.out.println();\par
+  187       \}\par
+  188     \}\par
+  189   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.dimension y trimino.Tablero.triminos.}\par
+{
+\ql
+Referenciado por trimino.Trimino.llenadoCuadrante(), trimino.Trimino.main(), trimino.Trimino.triminoRecursivoInferior() y trimino.Trimino.triminoRecursivoSuperior().}\par
+}
+{\xe \v marcaCasillaInicial\:trimino.Tablero}
+{\xe \v trimino.Tablero\:marcaCasillaInicial}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.Tablero.marcaCasillaInicial (int  {\i fila}, int  {\i columna})}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 33 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    33                                                          \{\par
+   34     {\cf18 char} marcaInicial = {\cf23 '#'};\par
+   35     triminos[fila - 1][columna - 1] = marcaInicial;\par
+   36   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.triminos.}\par
+{
+\ql
+Referenciado por trimino.Trimino.main().}\par
+}
+{\xe \v marcaTablero\:trimino.Tablero}
+{\xe \v trimino.Tablero\:marcaTablero}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char [][] trimino.Tablero.marcaTablero ({\b Casilla} []  {\i triminoElegido})}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Marca tablero. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i triminoElegido} \cell }{the trimino elegido \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid the char[][] \par
+}}{
+Definici\'F3n en la l\'EDnea 61 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    61                                                          \{\par
+   62     {\cf18 boolean} buenTrimino = {\cf17 true};\par
+   63     {\cf19 for} ({\cf18 int} i = 0; i < triminoElegido.length; i++) \{\par
+   64       Casilla casilla = triminoElegido[i];\par
+   65       {\cf18 int} fila = casilla.getFila();\par
+   66       {\cf18 int} columna = casilla.getColumna();\par
+   67       {\cf19 if} (triminos[fila - 1][columna - 1] != {\cf23 '*'}) \{\par
+   68         buenTrimino = {\cf17 false};\par
+   69         {\cf19 break};\par
+   70       \}\par
+   71     \}\par
+   72     {\cf19 if} (buenTrimino) \{\par
+   73       marca = nuevoSimbolo();\par
+   74       {\cf19 for} ({\cf18 int} i = 0; i < triminoElegido.length; i++) \{\par
+   75         Casilla casilla = triminoElegido[i];\par
+   76         {\cf18 int} fila = casilla.getFila();\par
+   77         {\cf18 int} columna = casilla.getColumna();\par
+   78         {\cf19 if} (triminos[fila - 1][columna - 1] == {\cf23 '*'}) \{\par
+   79           triminos[fila - 1][columna - 1] = marca;\par
+   80         \}\par
+   81       \}\par
+   82     \}\par
+   83     {\cf19 return} triminos;\par
+   84 \par
+   85   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.getColumna(), trimino.Casilla.getFila(), trimino.Tablero.marca, trimino.Tablero.nuevoSimbolo(), trimino.Tablero.triminoElegido y trimino.Tablero.triminos.}\par
+{
+\ql
+Referenciado por trimino.Tablero.elegirTrimino().}\par
+}
+{\xe \v nuevoSimbolo\:trimino.Tablero}
+{\xe \v trimino.Tablero\:nuevoSimbolo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char trimino.Tablero.nuevoSimbolo ()}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Nuevo simbolo. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid the char \par
+}}{
+Definici\'F3n en la l\'EDnea 196 del archivo Tablero.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   196                              \{\par
+  197     {\cf18 int} marcaInt = (int) marca;\par
+  198     {\cf18 int} nueve = (int) {\cf23 '9'};\par
+  199     {\cf19 if} (marcaInt < nueve) \{\par
+  200       marcaInt = marcaInt + 1;\par
+  201       marca = (char) marcaInt;\par
+  202     \} {\cf19 else} \{\par
+  203       {\cf19 if} (marca == {\cf23 '9'}) \{\par
+  204         marca = {\cf23 'a'};\par
+  205       \} {\cf19 else} {\cf19 if} (marca < {\cf23 'z'} && marca != {\cf23 'Z'}) \{\par
+  206         marcaInt = marcaInt + 1;\par
+  207         marca = (char) marcaInt;\par
+  208       \} {\cf19 else} {\cf19 if} (marca == {\cf23 'z'}) \{\par
+  209         marca = {\cf23 'A'};\par
+  210       \} {\cf19 else} {\cf19 if} (marca == {\cf23 'Z'}) \{\par
+  211         marca = {\cf23 '0'};\par
+  212       \}\par
+  213 \par
+  214     \}\par
+  215     {\cf19 return} marca;\par
+  216   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.marca.}\par
+{
+\ql
+Referenciado por trimino.Tablero.marcaTablero().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de los datos miembro\par
+\pard\plain 
+{\xe \v cuadrantes\:trimino.Tablero}
+{\xe \v trimino.Tablero\:cuadrantes}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+String [] trimino.Tablero.cuadrantes = \{ "CSI", "CSD", "CII", "CID" \}{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 10 del archivo Tablero.java.}\par
+{
+\ql
+Referenciado por trimino.Tablero.definirCuadrante().}\par
+}
+{\xe \v dimension\:trimino.Tablero}
+{\xe \v trimino.Tablero\:dimension}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.Tablero.dimension{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 8 del archivo Tablero.java.}\par
+{
+\ql
+Referenciado por trimino.Tablero.definirCuadrante(), trimino.Tablero.elegirTrimino(), trimino.Tablero.getDimension(), trimino.Tablero.imprimeTablero() y trimino.Tablero.Tablero().}\par
+}
+{\xe \v marca\:trimino.Tablero}
+{\xe \v trimino.Tablero\:marca}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char trimino.Tablero.marca = '0'{\f2 [static]}, {\f2 [package]}}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 12 del archivo Tablero.java.}\par
+{
+\ql
+Referenciado por trimino.Tablero.marcaTablero() y trimino.Tablero.nuevoSimbolo().}\par
+}
+{\xe \v triminoElegido\:trimino.Tablero}
+{\xe \v trimino.Tablero\:triminoElegido}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Casilla} [] trimino.Tablero.triminoElegido{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 11 del archivo Tablero.java.}\par
+{
+\ql
+Referenciado por trimino.Tablero.elegirTrimino() y trimino.Tablero.marcaTablero().}\par
+}
+{\xe \v triminos\:trimino.Tablero}
+{\xe \v trimino.Tablero\:triminos}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+char [][] trimino.Tablero.triminos{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 9 del archivo Tablero.java.}\par
+{
+\ql
+Referenciado por trimino.Tablero.imprimeTablero(), trimino.Tablero.marcaCasillaInicial(), trimino.Tablero.marcaTablero() y trimino.Tablero.Tablero().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/trimino/{\b Tablero.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase trimino.Trimino\par \pard\plain 
+{\tc\tcl2 \v trimino.Trimino}
+{\xe \v trimino.Trimino}
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ArrayList< {\b TriminoDimension} > {\b recursivoTriminos} (ArrayList< {\b TriminoDimension} > listaTriminos, int dimensionTablero, {\b Tablero} tableroTriminos)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Recursivo triminos. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ArrayList< {\b TriminoDimension} > {\b recursivo} (int dimensionCuadrante, int fila, int columna, int dimensionTablero, {\b Tablero} tableroTriminos)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Recursivo. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ArrayList< {\b TriminoDimension} > {\b recursivoTriminos} (ArrayList< {\b TriminoDimension} > listaTriminos, int dimensionTablero, {\b Tablero} tableroTriminos)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ArrayList< {\b TriminoDimension} > {\b recursivo} (int dimensionCuadrante, int fila, int columna, int dimensionTablero, {\b Tablero} tableroTriminos)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b llenadoCuadrante} (int fila, int columna, int dimensionTablero, {\b Tablero} tableroTriminos, int dimensionMarca)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b triminoRecursivoSuperior} ({\b Casilla}[] trimino, {\b Tablero} tableroTriminos, int dimension)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b triminoRecursivoInferior} ({\b Casilla}[] trimino, {\b Tablero} tableroTriminos, int dimensionInferior, int dimensionSuperior)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos est\'E1ticos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b main} (String[] args)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The main method. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b muestraSintaxis} ()\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Los argumentos son los siguientes : -t : Traza cada paso de manera que se describa la aplicaci\'F3n del algoritmo utilizado -h Muestra una ayuda y la sintaxis del comando x e y son las coordenadas de la casilla inicial marcada. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b muestraCreditos} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b main} (String[] args)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b muestraSintaxis} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b muestraCreditos} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b main} (String[] args)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descripci\'F3n detallada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definici\'F3n en la l\'EDnea 6 del archivo Trimino.java.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v llenadoCuadrante\:trimino.Trimino}
+{\xe \v trimino.Trimino\:llenadoCuadrante}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.Trimino.llenadoCuadrante (int  {\i fila}, int  {\i columna}, int  {\i dimensionTablero}, {\b Tablero}  {\i tableroTriminos}, int  {\i dimensionMarca})}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 79 del archivo triminoBak.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    79                                                                                                                         \{\par
+   80         {\cf18 int} dimension = dimensionTablero/4;\par
+   81         {\cf18 int} dimensionInicial = dimensionTablero;\par
+   82         {\cf19 while}(dimension>=1)\{\par
+   83             \par
+   84             String cuadranteMarca=tableroTriminos.definirCuadrante(fila, columna,dimensionMarca);\par
+   85             Casilla[] triminoMarca = tableroTriminos.elegirTrimino(fila,columna,cuadranteMarca,dimensionTablero, dimensionMarca);\par
+   86             tableroTriminos.imprimeTablero(tableroTriminos.getDimension());\par
+   87             {\cf19 if} (dimension>1)\{\par
+   88                 this.triminoRecursivoSuperior(triminoMarca, tableroTriminos, dimension);\par
+   89                 this.triminoRecursivoInferior(triminoMarca, tableroTriminos, 2,dimension);\par
+   90             \}\par
+   91             dimensionInicial = dimensionInicial/2;\par
+   92             dimensionMarca= dimensionInicial/2;\par
+   93             dimension = dimensionInicial/4;\par
+   94         \}\par
+   95     \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.definirCuadrante(), trimino.Tablero.elegirTrimino(), trimino.Tablero.getDimension(), trimino.Tablero.imprimeTablero(), trimino.Trimino.triminoRecursivoInferior() y trimino.Trimino.triminoRecursivoSuperior().}\par
+}
+{\xe \v main\:trimino.Trimino}
+{\xe \v trimino.Trimino\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Trimino.main (String []  {\i args}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i args} \cell }{\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \par
+}}{
+Definici\'F3n en la l\'EDnea 8 del archivo triminoBak.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     8                                             \{\par
+    9         Tablero tableroTriminos;\par
+   10         Trimino trimino = {\cf17 new} Trimino();\par
+   11         {\cf18 int} dimension=0;\par
+   12         {\cf19 if} (args.length==0)\{\par
+   13             {\cf18 char} marca={\cf23 '*'};\par
+   14             System.out.println ({\cf22 "-----------------"});\par
+   15             {\cf19 for} ({\cf18 int} i=0;i<8;i++)\{\par
+   16                 {\cf19 for} ({\cf18 int} j=0;j<8;j++)\par
+   17                 System.out.print({\cf22 " "}+ marca);\par
+   18                 System.out.println();\}\par
+   19             System.out.println ({\cf22 "-----------------"});\par
+   20             \}{\cf19 else}\{\par
+   21             {\cf18 int} filaInicial = Integer.parseInt(args[0]);\par
+   22             {\cf18 int} columnaInicial=Integer.parseInt(args[1]);\par
+   23             dimension=8;\par
+   24             \par
+   25             {\cf19 if} (args.length>2)\{\par
+   26               dimension=Integer.parseInt(args[2]);\par
+   27               {\cf18 double} numero = 0;\par
+   28               {\cf18 int} potencia = 1;\par
+   29               {\cf18 boolean} potenciaDos = {\cf17 false};\par
+   30               {\cf19 while} (numero<=dimension)\{\par
+   31                   numero = Math.pow (2, potencia);\par
+   32                   {\cf19 if} (numero == dimension)\{\par
+   33                      potenciaDos = {\cf17 true};\par
+   34                      {\cf19 break};\par
+   35                   \}\par
+   36                   potencia = potencia + 1;                \par
+   37               \}\par
+   38                 {\cf19 if} (!potenciaDos)\{\par
+   39                         System.out.println({\cf22 "-------------------------------------------------------"});\par
+   40                         System.out.println({\cf22 "Trimino de dimension incorrecta. No podremos resolverlo."});\par
+   41                         System.out.println({\cf22 "-------------------------------------------------------"});\par
+   42                         System.exit(0);\par
+   43                \}\par
+   44             \}\par
+   45          \par
+   46             tableroTriminos= {\cf17 new} Tablero(dimension);\par
+   47             tableroTriminos.marcaCasillaInicial(filaInicial, columnaInicial);\par
+   48             {\cf18 int} dimensionTablero = tableroTriminos.getDimension();\par
+   49             {\cf18 int} dimensionInicial = 0;\par
+   50             \par
+   51             {\cf20 /************  TRIMINO DE LA MARCA INICIAL********************************************************/}\par
+   52             dimensionInicial = tableroTriminos.getDimension();                  \par
+   53             {\cf18 int} dimensionMarca= dimensionInicial/2;\par
+   54 \par
+   55             \par
+   56             trimino.llenadoCuadrante(filaInicial, columnaInicial, dimensionInicial, tableroTriminos,dimensionMarca);\par
+   57     \par
+   58             System.out.println({\cf22 "==========================================================="});  \par
+   59             tableroTriminos.imprimeTablero(tableroTriminos.getDimension());\par
+   60             \par
+   61             {\cf20 /***************************INICIO***********************************/}\par
+   62             String cuadranteIni=tableroTriminos.definirCuadrante(filaInicial, columnaInicial,dimensionTablero);\par
+   63             Casilla[] triminoElegidoInicial=tableroTriminos.elegirTrimino(filaInicial,columnaInicial,cuadranteIni,dimensionTablero, dimensionTablero);\par
+   64             \par
+   65             {\cf19 for} ({\cf18 int} i=0;i<triminoElegidoInicial.length;i++)\{\par
+   66                     dimensionInicial = tableroTriminos.getDimension();\par
+   67                     dimensionMarca= dimensionInicial/2;\par
+   68                     Casilla casilla = triminoElegidoInicial[i];\par
+   69                     {\cf18 int} fila=casilla.getFila();\par
+   70                     {\cf18 int} columna= casilla.getColumna();\par
+   71                     \par
+   72                     trimino.llenadoCuadrante(fila, columna, dimensionInicial, tableroTriminos,dimensionMarca);\par
+   73             \}\par
+   74             System.out.println({\cf22 "==========================================================="});  \par
+   75             tableroTriminos.imprimeTablero(tableroTriminos.getDimension());\par
+   76             \}\par
+   77     \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.definirCuadrante(), trimino.Tablero.elegirTrimino(), trimino.Casilla.getColumna(), trimino.Tablero.getDimension(), trimino.Casilla.getFila(), trimino.Tablero.imprimeTablero() y trimino.Tablero.marcaCasillaInicial().}\par
+}
+{\xe \v main\:trimino.Trimino}
+{\xe \v trimino.Trimino\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Trimino.main (String []  {\i args}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i args} \cell }{\cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid \par
+}}{
+Definici\'F3n en la l\'EDnea 12 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    12                                             \{\par
+   13         Tablero tableroTriminos;\par
+   14         Trimino trimino = {\cf17 new} Trimino();\par
+   15         String Nombrefichero={\cf17 null};\par
+   16         {\cf18 int} dimension=0;\par
+   17         {\cf18 int} tamanho = 0;\par
+   18         {\cf19 for} ({\cf18 int} i = 0; i < args.length; i++) \{                            \par
+   19             {\cf19 if} (args[i].equals({\cf22 "-h"})) \{        \par
+   20                 muestraSintaxis();\par
+   21                 muestraCreditos();\par
+   22                 tamanho++;\par
+   23             \}\par
+   24             {\cf19 else} \{\par
+   25                  {\cf19 if} (args[i].equals({\cf22 "-t"})) \{        \par
+   26                      tamanho++;\par
+   27                  \}\par
+   28             \}               \par
+   29             \}\par
+   30         \par
+   31         \par
+   32         String[] argumentos = {\cf17 new} String[args.length-tamanho];\par
+   33         {\cf18 int} indice = 0;\par
+   34         {\cf19 for} ({\cf18 int} i = tamanho; i < args.length; i++)\{ \par
+   35             argumentos[indice]= args[i];\par
+   36             indice++;\par
+   37         \}\par
+   38         {\cf19 if} (argumentos.length==0)\{\par
+   39             {\cf18 char} marca={\cf23 '*'};\par
+   40             System.out.println ({\cf22 "-----------------"});\par
+   41             {\cf19 for} ({\cf18 int} i=0;i<8;i++)\{\par
+   42                 {\cf19 for} ({\cf18 int} j=0;j<8;j++)\par
+   43                 System.out.print({\cf22 " "}+ marca);\par
+   44                 System.out.println();\}\par
+   45             System.out.println ({\cf22 "-----------------"});\par
+   46             \}{\cf19 else}\{\par
+   47             {\cf18 int} filaInicial = Integer.parseInt(argumentos[0]);\par
+   48             {\cf18 int} columnaInicial=Integer.parseInt(argumentos[1]);\par
+   49             dimension=8;\par
+   50             \par
+   51             {\cf19 if} (argumentos.length>2)\{\par
+   52              \par
+   53                   dimension=Integer.parseInt(argumentos[2]);\par
+   54                   {\cf18 double} numero = 0;\par
+   55                   {\cf18 int} potencia = 1;\par
+   56                   {\cf18 boolean} potenciaDos = {\cf17 false};\par
+   57                   {\cf19 while} (numero<=dimension)\{\par
+   58                       numero = Math.pow (2, potencia);\par
+   59                       {\cf19 if} (numero == dimension)\{\par
+   60                           potenciaDos = {\cf17 true};\par
+   61                           {\cf19 break};\par
+   62                       \}\par
+   63                       potencia = potencia + 1;                \par
+   64                   \}\par
+   65                   {\cf19 if} (!potenciaDos)\{\par
+   66                             System.out.println({\cf22 "-------------------------------------------------------"});\par
+   67                             System.out.println({\cf22 "Trimino de dimension incorrecta. No podremos resolverlo."});\par
+   68                             System.out.println({\cf22 "-------------------------------------------------------"});\par
+   69                             System.exit(0);\par
+   70                   \}\par
+   71             \par
+   72             \}\par
+   73             \par
+   74          \par
+   75             tableroTriminos= {\cf17 new} Tablero(dimension);\par
+   76             \par
+   77             tableroTriminos.marcaCasillaInicial(filaInicial, columnaInicial);\par
+   78             {\cf18 int} dimensionInicial = tableroTriminos.getDimension();\par
+   79             trimino.recursivo(dimensionInicial, filaInicial, columnaInicial, tableroTriminos.getDimension(), tableroTriminos);\par
+   80     \par
+   81             System.out.println({\cf22 "==========================================================="});\par
+   82             \par
+   83             {\cf19 if} (argumentos.length>3)\{\par
+   84                   Nombrefichero = String.valueOf(argumentos[3]);\par
+   85             \}\par
+   86                 {\cf19 try} \{\par
+   87                     tableroTriminos.imprimeTablero(tableroTriminos.getDimension(),Nombrefichero);\par
+   88                 \} {\cf19 catch} (IOException e) \{\par
+   89                     {\cf20 // TODO Auto-generated catch block}\par
+   90                     System.out.println(e.getMessage());\par
+   91                 \}       \par
+   92         \}\par
+   93             \par
+   94     \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.getDimension(), trimino.Tablero.imprimeTablero(), trimino.Tablero.marcaCasillaInicial(), trimino.Trimino.muestraCreditos() y trimino.Trimino.muestraSintaxis().}\par
+}
+{\xe \v main\:trimino.Trimino}
+{\xe \v trimino.Trimino\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Trimino.main (String []  {\i args}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+The main method. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i args} \cell }{the arguments \cell }
+{\row }
+}
+}{
+Definici\'F3n en la l\'EDnea 13 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    13                                          \{\par
+   14     Tablero tableroTriminos;\par
+   15     Trimino trimino = {\cf17 new} Trimino();\par
+   16     String nombrefichero = {\cf17 null};\par
+   17     {\cf18 int} dimension = 0;\par
+   18     {\cf18 int} tamanho = 0;\par
+   19     {\cf19 for} ({\cf18 int} i = 0; i < args.length; i++) \{\par
+   20       {\cf19 if} (args[i].equals({\cf22 "-h"})) \{\par
+   21         muestraSintaxis();\par
+   22         muestraCreditos();\par
+   23         tamanho++;\par
+   24       \} {\cf19 else} \{\par
+   25         {\cf19 if} (args[i].equals({\cf22 "-t"})) \{\par
+   26           tamanho++;\par
+   27         \}\par
+   28       \}\par
+   29     \}\par
+   30 \par
+   31     String[] argumentos = {\cf17 new} String[args.length - tamanho];\par
+   32     {\cf18 int} indice = 0;\par
+   33     {\cf19 for} ({\cf18 int} i = tamanho; i < args.length; i++) \{\par
+   34       argumentos[indice] = args[i];\par
+   35       indice++;\par
+   36     \}\par
+   37     {\cf19 if} (argumentos.length == 0) \{\par
+   38       {\cf18 char} marca = {\cf23 '*'};\par
+   39       System.out.println({\cf22 "-----------------"});\par
+   40       {\cf19 for} ({\cf18 int} i = 0; i < 8; i++) \{\par
+   41         {\cf19 for} ({\cf18 int} j = 0; j < 8; j++) \{\par
+   42           System.out.print({\cf22 " "} + marca);\par
+   43           System.out.println();\par
+   44         \}\par
+   45       \}\par
+   46       System.out.println({\cf22 "-----------------"});\par
+   47     \} {\cf19 else} \{\par
+   48       {\cf18 int} filaInicial = Integer.parseInt(argumentos[0]);\par
+   49       {\cf18 int} columnaInicial = Integer.parseInt(argumentos[1]);\par
+   50       dimension = 8;\par
+   51 \par
+   52       {\cf19 if} (argumentos.length > 2) \{\par
+   53 \par
+   54         dimension = Integer.parseInt(argumentos[2]);\par
+   55         {\cf18 double} numero = 0;\par
+   56         {\cf18 int} potencia = 1;\par
+   57         {\cf18 boolean} potenciaDos = {\cf17 false};\par
+   58         {\cf19 while} (numero <= dimension) \{\par
+   59           numero = Math.pow(2, potencia);\par
+   60           {\cf19 if} (numero == dimension) \{\par
+   61             potenciaDos = {\cf17 true};\par
+   62             {\cf19 break};\par
+   63           \}\par
+   64           potencia = potencia + 1;\par
+   65         \}\par
+   66         {\cf19 if} (!potenciaDos) \{\par
+   67           System.out.println({\cf22 "-------------------------------------------------------"});\par
+   68           System.out.println({\cf22 "Trimino de dimension incorrecta. No podremos resolverlo."});\par
+   69           System.out.println({\cf22 "-------------------------------------------------------"});\par
+   70           System.exit(0);\par
+   71         \}\par
+   72 \par
+   73       \}\par
+   74 \par
+   75       tableroTriminos = {\cf17 new} Tablero(dimension);\par
+   76 \par
+   77       tableroTriminos.marcaCasillaInicial(filaInicial, columnaInicial);\par
+   78       {\cf18 int} dimensionInicial = tableroTriminos.getDimension();\par
+   79       trimino.recursivo(dimensionInicial, filaInicial, columnaInicial, tableroTriminos.getDimension(), tableroTriminos);\par
+   80 \par
+   81       System.out.println({\cf22 "==========================================================="});\par
+   82 \par
+   83       {\cf19 if} (argumentos.length > 3) \{\par
+   84         nombrefichero = String.valueOf(argumentos[3]);\par
+   85       \}\par
+   86       {\cf19 try} \{\par
+   87         tableroTriminos.imprimeTablero(tableroTriminos.getDimension(), nombrefichero);\par
+   88       \} {\cf19 catch} (IOException e) \{\par
+   89         {\cf20 // TODO Auto-generated catch block}\par
+   90         System.out.println(e.getMessage());\par
+   91       \}\par
+   92     \}\par
+   93 \par
+   94   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.getDimension(), trimino.Tablero.imprimeTablero(), trimino.Tablero.marcaCasillaInicial(), trimino.Trimino.muestraCreditos() y trimino.Trimino.muestraSintaxis().}\par
+}
+{\xe \v muestraCreditos\:trimino.Trimino}
+{\xe \v trimino.Trimino\:muestraCreditos}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Trimino.muestraCreditos (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 135 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   135                                             \{\par
+  136             System.out.println({\cf22 "Alumno : Pilar"});\par
+  137             System.out.println({\cf22 "Centro de Barbastro the best"});                \par
+  138         \}\par
+}
+}
+{\xe \v muestraCreditos\:trimino.Trimino}
+{\xe \v trimino.Trimino\:muestraCreditos}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Trimino.muestraCreditos (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 164 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   164                                        \{\par
+  165     System.out.println({\cf22 "Alumno : Pilar"});\par
+  166     System.out.println({\cf22 "UNED"});\par
+  167   \}\par
+}
+{
+\ql
+Referenciado por trimino.Trimino.main().}\par
+}
+{\xe \v muestraSintaxis\:trimino.Trimino}
+{\xe \v trimino.Trimino\:muestraSintaxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Trimino.muestraSintaxis (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 130 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   130                                             \{\par
+  131             System.out.println({\cf22 "La sintaxis de la invocaci\'F3n debe ser"});\par
+  132             System.out.println({\cf22 "trimino [-t][-h] x y [d][fichero]"});\par
+  133         \}\par
+}
+}
+{\xe \v muestraSintaxis\:trimino.Trimino}
+{\xe \v trimino.Trimino\:muestraSintaxis}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void trimino.Trimino.muestraSintaxis (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Los argumentos son los siguientes : -t : Traza cada paso de manera que se describa la aplicaci\'F3n del algoritmo utilizado -h Muestra una ayuda y la sintaxis del comando x e y son las coordenadas de la casilla inicial marcada. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+d es la dimensi\'F3n del tablero. Por defecto se entiende 8x8 fichero es el nombre del fichero que se crear\'E1 y almacenar\'E1 la salida. Si el fichero ya existe, el comando dar\'E1 un error. En caso de que no se indique fichero, el programa devolver\'E1 la soluci\'F3n por la salida est\'E1ndar. \par
+}{
+Definici\'F3n en la l\'EDnea 159 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   159                                        \{\par
+  160     System.out.println({\cf22 "La sintaxis de la invocaci\'F3n debe ser"});\par
+  161     System.out.println({\cf22 "trimino [-t][-h] x y [d][fichero]"});\par
+  162   \}\par
+}
+{
+\ql
+Referenciado por trimino.Trimino.main().}\par
+}
+{\xe \v recursivo\:trimino.Trimino}
+{\xe \v trimino.Trimino\:recursivo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ArrayList<{\b TriminoDimension}> trimino.Trimino.recursivo (int  {\i dimensionCuadrante}, int  {\i fila}, int  {\i columna}, int  {\i dimensionTablero}, {\b Tablero}  {\i tableroTriminos})}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 115 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   115                                                                                                                                           \{\par
+  116         ArrayList<TriminoDimension>  listaTriminos = {\cf17 new} ArrayList<TriminoDimension>();\par
+  117         {\cf19 for}({\cf18 int} i=dimensionCuadrante;i>1;i=i/2)\{\par
+  118             String cuadranteMarca=tableroTriminos.definirCuadrante(fila, columna,i);\par
+  119             Casilla[] triminoMarca = tableroTriminos.elegirTrimino(fila,columna,cuadranteMarca,dimensionTablero, i);\par
+  120             TriminoDimension triminoDimension = {\cf17 new} TriminoDimension();\par
+  121             triminoDimension.setDimension(i);\par
+  122             triminoDimension.setTriminoMarca(triminoMarca);\par
+  123             listaTriminos.add(triminoDimension);\par
+  124             recursivoTriminos(listaTriminos,dimensionTablero,tableroTriminos);\par
+  125         \}\par
+  126         {\cf19 return} listaTriminos;\par
+  127         \par
+  128     \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.definirCuadrante(), trimino.Tablero.elegirTrimino(), trimino.Trimino.recursivoTriminos(), trimino.TriminoDimension.setDimension() y trimino.TriminoDimension.setTriminoMarca().}\par
+}
+{\xe \v recursivo\:trimino.Trimino}
+{\xe \v trimino.Trimino\:recursivo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ArrayList<{\b TriminoDimension}> trimino.Trimino.recursivo (int  {\i dimensionCuadrante}, int  {\i fila}, int  {\i columna}, int  {\i dimensionTablero}, {\b Tablero}  {\i tableroTriminos})}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Recursivo. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimensionCuadrante} \cell }{the dimension cuadrante \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i fila} \cell }{the fila \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i columna} \cell }{the columna \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimensionTablero} \cell }{the dimension tablero \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tableroTriminos} \cell }{the tablero triminos \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid the array list \par
+}}{
+Definici\'F3n en la l\'EDnea 133 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   134                                \{\par
+  135     ArrayList<TriminoDimension> listaTriminos = {\cf17 new} ArrayList<TriminoDimension>();\par
+  136     {\cf19 for} ({\cf18 int} i = dimensionCuadrante; i > 1; i = i / 2) \{\par
+  137       String cuadranteMarca = tableroTriminos.definirCuadrante(fila, columna, i);\par
+  138       Casilla[] triminoMarca = tableroTriminos.elegirTrimino(fila, columna, cuadranteMarca, dimensionTablero, i);\par
+  139       TriminoDimension triminoDimension = {\cf17 new} TriminoDimension();\par
+  140       triminoDimension.setDimension(i);\par
+  141       triminoDimension.setTriminoMarca(triminoMarca);\par
+  142       listaTriminos.add(triminoDimension);\par
+  143       recursivoTriminos(listaTriminos, dimensionTablero, tableroTriminos);\par
+  144     \}\par
+  145     {\cf19 return} listaTriminos;\par
+  146 \par
+  147   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.definirCuadrante(), trimino.Tablero.elegirTrimino(), trimino.Trimino.recursivoTriminos(), trimino.TriminoDimension.setDimension() y trimino.TriminoDimension.setTriminoMarca().}\par
+{
+\ql
+Referenciado por trimino.Trimino.recursivoTriminos().}\par
+}
+{\xe \v recursivoTriminos\:trimino.Trimino}
+{\xe \v trimino.Trimino\:recursivoTriminos}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ArrayList<{\b TriminoDimension}> trimino.Trimino.recursivoTriminos (ArrayList< {\b TriminoDimension} >  {\i listaTriminos}, int  {\i dimensionTablero}, {\b Tablero}  {\i tableroTriminos})}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 96 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    96                                                                                                                                                 \{\par
+   97         ArrayList<TriminoDimension> listaTriminosAux ={\cf17 null};\par
+   98         {\cf19 for} ({\cf18 int} i=0;i<listaTriminos.size();i++)\{\par
+   99         TriminoDimension triminoDimensionAux = (TriminoDimension)listaTriminos.get(i); \par
+  100         {\cf18 int} dimensionAux = triminoDimensionAux.getDimension();\par
+  101         {\cf19 if}(dimensionAux>1)\{\par
+  102             Casilla[] triminoMarcaAux = triminoDimensionAux.getTriminoMarca();\par
+  103             {\cf19 for} ({\cf18 int} j=0;j<triminoMarcaAux.length;j++)\{\par
+  104                 Casilla casilla = triminoMarcaAux[j];\par
+  105                 {\cf18 int} fila=casilla.getFila();\par
+  106                 {\cf18 int} columna= casilla.getColumna();\par
+  107                 listaTriminosAux = recursivo(dimensionAux/2, fila, columna, dimensionTablero, tableroTriminos);\par
+  108             \}\par
+  109         \}\par
+  110         \}\par
+  111         {\cf19 return} listaTriminosAux;\par
+  112         \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.getColumna(), trimino.TriminoDimension.getDimension(), trimino.Casilla.getFila(), trimino.TriminoDimension.getTriminoMarca() y trimino.Trimino.recursivo().}\par
+}
+{\xe \v recursivoTriminos\:trimino.Trimino}
+{\xe \v trimino.Trimino\:recursivoTriminos}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ArrayList<{\b TriminoDimension}> trimino.Trimino.recursivoTriminos (ArrayList< {\b TriminoDimension} >  {\i listaTriminos}, int  {\i dimensionTablero}, {\b Tablero}  {\i tableroTriminos})}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Recursivo triminos. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E1metros:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i listaTriminos} \cell }{the lista triminos \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dimensionTablero} \cell }{the dimension tablero \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tableroTriminos} \cell }{the tablero triminos \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Devuelve:\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid the array list \par
+}}{
+Definici\'F3n en la l\'EDnea 104 del archivo Trimino.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   105                                \{\par
+  106     ArrayList<TriminoDimension> listaTriminosAux = {\cf17 null};\par
+  107     {\cf19 for} ({\cf18 int} i = 0; i < listaTriminos.size(); i++) \{\par
+  108       TriminoDimension triminoDimensionAux = (TriminoDimension) listaTriminos.get(i);\par
+  109       {\cf18 int} dimensionAux = triminoDimensionAux.getDimension();\par
+  110       {\cf19 if} (dimensionAux > 1) \{\par
+  111         Casilla[] triminoMarcaAux = triminoDimensionAux.getTriminoMarca();\par
+  112         {\cf19 for} ({\cf18 int} j = 0; j < triminoMarcaAux.length; j++) \{\par
+  113           Casilla casilla = triminoMarcaAux[j];\par
+  114           {\cf18 int} fila = casilla.getFila();\par
+  115           {\cf18 int} columna = casilla.getColumna();\par
+  116           listaTriminosAux = recursivo(dimensionAux / 2, fila, columna, dimensionTablero, tableroTriminos);\par
+  117         \}\par
+  118       \}\par
+  119     \}\par
+  120     {\cf19 return} listaTriminosAux;\par
+  121   \}\par
+}
+{
+\ql
+Hace referencia a trimino.Casilla.getColumna(), trimino.TriminoDimension.getDimension(), trimino.Casilla.getFila(), trimino.TriminoDimension.getTriminoMarca() y trimino.Trimino.recursivo().}\par
+{
+\ql
+Referenciado por trimino.Trimino.recursivo().}\par
+}
+{\xe \v triminoRecursivoInferior\:trimino.Trimino}
+{\xe \v trimino.Trimino\:triminoRecursivoInferior}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.Trimino.triminoRecursivoInferior ({\b Casilla} []  {\i trimino}, {\b Tablero}  {\i tableroTriminos}, int  {\i dimensionInferior}, int  {\i dimensionSuperior})}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 115 del archivo triminoBak.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   115                                                                                                                                \{\par
+  116         Casilla[] triminoElegido = {\cf17 null};\par
+  117         String cuadrante= {\cf17 null};\par
+  118         {\cf19 for} ({\cf18 int} i=0;i<trimino.length;i++)\{\par
+  119             Casilla casilla = trimino[i];\par
+  120             {\cf18 int} fila=casilla.getFila();\par
+  121             {\cf18 int} columna= casilla.getColumna();\par
+  122             cuadrante=tableroTriminos.definirCuadrante(fila, columna, dimensionInferior);\par
+  123             triminoElegido=tableroTriminos.elegirTrimino(fila, columna,cuadrante,tableroTriminos.getDimension(),dimensionInferior);\par
+  124             tableroTriminos.imprimeTablero(tableroTriminos.getDimension());\par
+  125             System.out.println({\cf22 "==========================================================="});\par
+  126             {\cf19 if} (dimensionInferior*2<dimensionSuperior)\par
+  127                 triminoRecursivoInferior(triminoElegido,tableroTriminos,dimensionInferior*2,dimensionSuperior);\par
+  128         \}\par
+  129         \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.definirCuadrante(), trimino.Tablero.elegirTrimino(), trimino.Casilla.getColumna(), trimino.Tablero.getDimension(), trimino.Casilla.getFila() y trimino.Tablero.imprimeTablero().}\par
+{
+\ql
+Referenciado por trimino.Trimino.llenadoCuadrante().}\par
+}
+{\xe \v triminoRecursivoSuperior\:trimino.Trimino}
+{\xe \v trimino.Trimino\:triminoRecursivoSuperior}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.Trimino.triminoRecursivoSuperior ({\b Casilla} []  {\i trimino}, {\b Tablero}  {\i tableroTriminos}, int  {\i dimension})}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 98 del archivo triminoBak.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    98                                                                                                  \{\par
+   99         Casilla[] triminoElegido = {\cf17 null};\par
+  100         String cuadrante= {\cf17 null};\par
+  101         {\cf19 for} ({\cf18 int} i=0;i<trimino.length;i++)\{\par
+  102             Casilla casilla = trimino[i];\par
+  103             {\cf18 int} fila=casilla.getFila();\par
+  104             {\cf18 int} columna= casilla.getColumna();\par
+  105             cuadrante=tableroTriminos.definirCuadrante(fila, columna, dimension);\par
+  106             triminoElegido=tableroTriminos.elegirTrimino(fila, columna,cuadrante,tableroTriminos.getDimension(),dimension);\par
+  107             tableroTriminos.imprimeTablero(tableroTriminos.getDimension());\par
+  108             System.out.println({\cf22 "==========================================================="});\par
+  109             {\cf19 if} (dimension/2>1)\par
+  110                 triminoRecursivoSuperior(triminoElegido,tableroTriminos,dimension/2);\par
+  111             \par
+  112         \}\par
+  113         \}\par
+}
+{
+\ql
+Hace referencia a trimino.Tablero.definirCuadrante(), trimino.Tablero.elegirTrimino(), trimino.Casilla.getColumna(), trimino.Tablero.getDimension(), trimino.Casilla.getFila() y trimino.Tablero.imprimeTablero().}\par
+{
+\ql
+Referenciado por trimino.Trimino.llenadoCuadrante().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir de los siguientes ficheros:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/trimino/{\b Trimino.java}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b triminoBak.java}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase trimino.TriminoDimension\par \pard\plain 
+{\tc\tcl2 \v trimino.TriminoDimension}
+{\xe \v trimino.TriminoDimension}
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Casilla} [] {\b getTriminoMarca} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setTriminoMarca} ({\b Casilla}[] {\b triminoMarca})\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b getDimension} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setDimension} (int {\b dimension})\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos del 'package'\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Casilla} [] {\b triminoMarca}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b dimension}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Descripci\'F3n detallada\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definici\'F3n en la l\'EDnea 3 del archivo TriminoDimension.java.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v getDimension\:trimino.TriminoDimension}
+{\xe \v trimino.TriminoDimension\:getDimension}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.TriminoDimension.getDimension ()}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 15 del archivo TriminoDimension.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    15                             \{\par
+   16     {\cf19 return} dimension;\par
+   17   \}\par
+}
+{
+\ql
+Hace referencia a trimino.TriminoDimension.dimension.}\par
+{
+\ql
+Referenciado por trimino.Trimino.recursivoTriminos().}\par
+}
+{\xe \v getTriminoMarca\:trimino.TriminoDimension}
+{\xe \v trimino.TriminoDimension\:getTriminoMarca}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Casilla} [] trimino.TriminoDimension.getTriminoMarca ()}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 7 del archivo TriminoDimension.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid     7                                      \{\par
+    8     {\cf19 return} triminoMarca;\par
+    9   \}\par
+}
+{
+\ql
+Hace referencia a trimino.TriminoDimension.triminoMarca.}\par
+{
+\ql
+Referenciado por trimino.Trimino.recursivoTriminos().}\par
+}
+{\xe \v setDimension\:trimino.TriminoDimension}
+{\xe \v trimino.TriminoDimension\:setDimension}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.TriminoDimension.setDimension (int  {\i dimension})}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 19 del archivo TriminoDimension.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    19                                           \{\par
+   20     this.dimension = dimension;\par
+   21   \}\par
+}
+{
+\ql
+Hace referencia a trimino.TriminoDimension.dimension.}\par
+{
+\ql
+Referenciado por trimino.Trimino.recursivo().}\par
+}
+{\xe \v setTriminoMarca\:trimino.TriminoDimension}
+{\xe \v trimino.TriminoDimension\:setTriminoMarca}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void trimino.TriminoDimension.setTriminoMarca ({\b Casilla} []  {\i triminoMarca})}}
+\par
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 11 del archivo TriminoDimension.java.}\par
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    11                                                       \{\par
+   12     this.triminoMarca = triminoMarca;\par
+   13   \}\par
+}
+{
+\ql
+Hace referencia a trimino.TriminoDimension.triminoMarca.}\par
+{
+\ql
+Referenciado por trimino.Trimino.recursivo().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de los datos miembro\par
+\pard\plain 
+{\xe \v dimension\:trimino.TriminoDimension}
+{\xe \v trimino.TriminoDimension\:dimension}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int trimino.TriminoDimension.dimension{\f2 [package]}}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 5 del archivo TriminoDimension.java.}\par
+{
+\ql
+Referenciado por trimino.TriminoDimension.getDimension() y trimino.TriminoDimension.setDimension().}\par
+}
+{\xe \v triminoMarca\:trimino.TriminoDimension}
+{\xe \v trimino.TriminoDimension\:triminoMarca}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Casilla} [] trimino.TriminoDimension.triminoMarca{\f2 [package]}}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definici\'F3n en la l\'EDnea 4 del archivo TriminoDimension.java.}\par
+{
+\ql
+Referenciado por trimino.TriminoDimension.getTriminoMarca() y trimino.TriminoDimension.setTriminoMarca().}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+src/trimino/{\b TriminoDimension.java}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documentaci\'F3n de archivos{\tc \v Documentaci\'F3n de archivos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo src/trimino/Casilla.java\par \pard\plain 
+{\tc\tcl2 \v src/trimino/Casilla.java}
+{\xe \v src/trimino/Casilla.java}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.Casilla}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo src/trimino/Estructura.java\par \pard\plain 
+{\tc\tcl2 \v src/trimino/Estructura.java}
+{\xe \v src/trimino/Estructura.java}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.Estructura}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo src/trimino/Letras.java\par \pard\plain 
+{\tc\tcl2 \v src/trimino/Letras.java}
+{\xe \v src/trimino/Letras.java}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.Letras}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo src/trimino/Tablero.java\par \pard\plain 
+{\tc\tcl2 \v src/trimino/Tablero.java}
+{\xe \v src/trimino/Tablero.java}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.Tablero}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo src/trimino/Trimino.java\par \pard\plain 
+{\tc\tcl2 \v src/trimino/Trimino.java}
+{\xe \v src/trimino/Trimino.java}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.Trimino}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo Trimino.java\par \pard\plain 
+{\tc\tcl2 \v Trimino.java}
+{\xe \v Trimino.java}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.Trimino}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo src/trimino/TriminoDimension.java\par \pard\plain 
+{\tc\tcl2 \v src/trimino/TriminoDimension.java}
+{\xe \v src/trimino/TriminoDimension.java}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.TriminoDimension}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Archivo triminoBak.java\par \pard\plain 
+{\tc\tcl2 \v triminoBak.java}
+{\xe \v triminoBak.java}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b trimino.Trimino}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Paquetes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+package {\b trimino}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CDndice\par 
+\pard\plain 
+{\tc \v \'CDndice}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
